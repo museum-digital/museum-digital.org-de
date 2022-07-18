@@ -1,30 +1,30 @@
 +++
-title = "Participate"
-description = "museum-digital is a community project. Of course, we always welcome volunteers who are ready to help out!"
+title = "Mitmachen"
+description = "museum-digital ist ein Community-Project. Natürlich freuen wir uns über Unterstützung!"
 
 [extra]
-keywords = "Museums, Participation, Volunteering, Community"
+keywords = "Partizipation, Mitmachen, Community"
 banner_image = "/data/img/banners/albani.jpg"
 html_id = "participate"
 +++
 
-## Becoming a part of museum-digital
+## Ein Teil von museum-digital werden
 
-Helping museum-digital is possible in a multitude of ways. Direct participation is mainly reserved for museums, but anybody can help greatly by providing meaningful information and comments.
-
-----
-
-## ... as an Institution
-
-If your institution wants to join museum-digital, you only need a short description, a photo, and the usual contact information of the museum. The museum will then be entered into the appropriate instance of museum-digital and a user account for the museum will be set up. Our tools have shown to be sufficiently intuitive for half an hour of an introduction (via phone) to be sufficient for publishing an object.
-
-Regional museum associations often offer day-long seminars in which working with museum-digital is discussed in more detail. These events usually feature hands-on exercises. It may be fruitful to consult your regional museum association or the administrator of your region of museum-digital.
+Es gibt viele Wege bei museum-digital mitzumachen - der Kreativität sind da kaum Grenzen gesetzt. Direkt mitwirken bei museum-digital können vor allem Museen - doch: Die Museen zu unterstützten qualitätvoll zu inventarisieren und zu publizieren, etwa durch hilfreiche Kommentare, das kann jeder.
 
 ----
 
-## ... alone or with a group
+## ... als Institution
 
-You can help museums greatly by providing information and working with the museums. At the bottom of almost all object pages, there is a link "Do you know more ...?". By clicking on this line, you can directly provide e-mail feedback on the given object to the related museum. You may however also offer help to a museum in your area of expertise.
+Wenn Sie als Museum bei museum-digital mitmachen wollen, dann braucht es nur eine kurze Beschreibung, ein Foto und die üblichen Kontaktdaten des Museums. Danach wird das Museum in der passenden Instanz von museum-digital eingerichtet und es wird ein Nutzerkonto erstellt. Da museum-digital sehr intuitiv ist genügt meistens schon eine halbstündige Telefonunterweisung um Objekte erfolgreich zu veröffentlichen.
+
+Regionale Museumsverbände oder -beratungsstellen bieten aber auch ganztägige Veranstaltungen an, auf denen das Arbeiten mit museum-digital erläutert wird. Meist sind diese Veranstaltungen mit praktischen Übungen verbunden. Fragen Sie ihren regionalen Museumsverband oder bei einem der Betreuer einer Instanz von museum-digital.
+
+----
+
+## ... als Einzelner oder als Gruppe
+
+Sie können einem einzelnen Museum durch Rat und Tat zur Seite stehen. Unter fast allen Objekten finden Sie einen Vermerk "Ist Ihnen etwas aufgefallen ...". Wenn Sie auf diese Zeile klicken, dann können Sie direkt zu dem jeweiligen Objekt mit dem betreffenden Museum per e-Mail in Verbindung treten. Sie können aber auch direkt zu einem der beteiligten Museen gehen und beispielsweise anbieten Objekte aus einem Bereich, in dem Sie sich besonders gut auskennen, zu bearbeiten. Eine andere Möglichkeit besteht darin dem Museum anzubieten, Qualitätvolle Objektfotografien oder Scans der Bildersammlung zu erstellen.
 
 <br/>
 

@@ -1,9 +1,9 @@
 +++
-title = "Frontend/Portal"
-description = "Most of the work museum-digital does focuses on bringing museums online. We do so mainly using our main frontend/portal software."
+title = "Ausgabe / Portal"
+description = "museum-digitals vorrangiges Ziel ist die digitale Zugänglichmachung von Museumsinformationen - besonders Objektinformationen. Dies geschieht primär mit der 'Ausgabe'."
 
 [extra]
-keywords = "Software, Museums, Museum Objects, Museum Software, Exhibitions, Web Portal"
+keywords = "Software, Museen, Museumsobjekte, Museumssoftware, Webportal"
 banner_image = "/data/img/banners/RooseveltRoadViaduct_1920_InternetArchive_p280.jpg"
 banner_image_alt = 'Image from page 280 of "The practical aspect of the slope deflection method and its application to the design of the Roosevelt Road Viaduct" (1920); Grodsky, Morris; Contributing Library: Paul V. Galvin Library, Illinois Institute of Technology; Digitizing Sponsor: CARLI: Consortium of Academic and Research Libraries in Illinois'
 html_id = "frontend"
@@ -32,13 +32,13 @@ faq = [
 ]
 +++
 
-## The Main Frontend of museum-digital
+## Die "Ausgabe"
 
-museum-digital was founded to publish museum object information online. That's not possible without the right software.
+museum-digital wurde gegründet, um Museumsobjekte im Netz zugänglich zu machen. Das geht nicht ohne die entsprechende Software.
 
-The "frontend" is thus the first application, that was developed at museum-digital. With it, museums can join together to present themselves and their objects online.
+So ist die "Ausgabe" die erste Anwendung, die im Rahmen von museum-digital geschrieben wurde. Mit ihr können Museen sich und ihre Objekte gemeinsam im Netz darstellen und durchsuchbar machen.
 
-To offer a comprehensive glimpse at the museums and their objects, a variety of additional information has been made presentable since. On the one hand, museums can now add information on their collections, object groups, exhibitions, and events. On the other, a number of options for linking and visualizing information have been added.
+Um ein umfassendes Bild der Museen und ihrer Objekte zu liefern, wurden seitdem vielfältige zusätzliche Informationen anzeigbar gemacht. Einerseits sind dies Informationen zu Sammlungen, Objektgruppen, Ausstellungen und Veranstaltungen, andererseits eine Vielzahl von Optionen, um die Objekte zu verknüpfen und zu visualisieren.
 
 ----
 
@@ -48,79 +48,79 @@ To offer a comprehensive glimpse at the museums and their objects, a variety of 
 
 {% museumdigital_preview_tile_figure(
     image="/data/img/Screenshots/Ausgabe/Screenshot-Frontend-Startpage.jpg",
-    image_alt=""
-    ) %}Start page of the German national portal of museum-digital.{% end %}
+    image_alt="Startseite des deutschlandweiten Portals von museum-digital"
+    ) %}Startseite des deutschlandweiten Portals von museum-digital.{% end %}
 
 {% museumdigital_preview_tile_figure(
     image="/data/img/Screenshots/Ausgabe/Screenshot-Frontend-ExtendedSearch.jpg",
-    image_alt="Extended search page in the museum-digital frontend."
-    ) %}Using the extended search settings, users can define exact searches.{% end %}
+    image_alt="Erweiterte Sucheinstellungen in der Ausgabe von museum-digital"
+    ) %}Mithilfe der erweiterten Suche, können Benutzer exakte Abfragen formulieren.{% end %}
 
 {% museumdigital_preview_tile_figure(
     image="/data/img/Screenshots/Ausgabe/Screenshot-Frontend-EnrichedSearchPages.jpg",
-    image_alt="Enriched search results in the museum-digital frontend"
-    ) %}Search result pages are enriched based on data from our controlled vocabularies.{% end %}
+    image_alt="Angereicherte Ergebnisseiten im museum-digital Frontend"
+    ) %}Such-Ergebnisseiten werden, so möglich, mit Informationen aus den kontrollierten Vokabularen angereichert.{% end %}
 
 {% museumdigital_preview_tile_figure(
     image="/data/img/Screenshots/Ausgabe/Screenshot-Frontend-Timeline.jpg",
-    image_alt="A timeline page in museum-digital."
-    ) %}The museum-digital frontend offers a timeline, for viewing search results sorted by their relations to time.{% end %}
+    image_alt="Eine Timeline-Seite bei museum-digital"
+    ) %}Die "Ausgabe" von museum-digital bietet eine Zeitleiste, mit der Suchergebnisse nach Zeit sortiert betrachtet werden können.{% end %}
 
 {% museumdigital_preview_tile_figure(
     image="/data/img/Screenshots/Ausgabe/Screenshot-Frontend-oak.jpg",
-    image_alt="Objects on map pages in museum-digital."
-    ) %}Using the "objects on map" pages, users can find interesting objects based on their geographical background.{% end %}
+    image_alt="Eine Objekte-auf-Karte-Seite von museum-digital."
+    ) %}Mit der "Objekte-auf-Karte"-Funktion können Benutzer interessante Objekte auf Basis ihres geographischen Hintergrunds finden.{% end %}
 
 {% museumdigital_preview_tile_figure(
     image="/data/img/Screenshots/Ausgabe/Screenshot-Frontend-Object.jpg",
-    image_alt="An object page."
-    ) %}An object page in the frontend of museum-digital.{% end %}
+    image_alt="Eine Objektseite."
+    ) %}Eine Objektseite im Frontend von museum-digital.{% end %}
 
 {% museumdigital_preview_tile_figure(
     image="/data/img/Screenshots/Ausgabe/Screenshot-Frontend-Multilingual.jpg",
-    image_alt="Multilingualism in the museum-digital frontend."
-    ) %}museum-digital is multilingual, and so, too, can be the displayed entries. The navigation language and the record language can be switched independent of each other.{% end %}
+    image_alt="Mehrsprachigkeit im Frontend von museum-digital."
+    ) %}museum-digital ist mehrsprachig, und so können es auch die erfassten Einträge sein. Die Navigationssprache und Eintragssprache können unabhängig voneinander ausgewählt werden.{% end %}
 
 {% museumdigital_preview_tile_figure(
     image="/data/img/Screenshots/Ausgabe/Screenshot-Frontend-ExhibitionOverview.jpg",
-    image_alt="Exhibition overview page in the museum-digital frontend"
-    ) %}The exhibition overview page in tiles mode.{% end %}
+    image_alt="Ausstellungsübersichtsseite in der Ausgabe von museum-digital"
+    ) %}Eine Ausstellungs-Übersichts-Seite im Kachel-Modus.{% end %}
 
 {% museumdigital_preview_tile_figure(
     image="/data/img/Screenshots/Ausgabe/Screenshot-Frontend-Calendar.jpg",
-    image_alt="Calendars are available for exhibitions and events."
-    ) %}Calendars are available for exhibitions and events.{% end %}
+    image_alt="Kalender sind Verfügbar auf den Übersichtsseiten für Ausstellungen und Veranstaltungen."
+    ) %}Kalender sind Verfügbar auf den Übersichtsseiten für Ausstellungen und Veranstaltungen.{% end %}
 
 {% museumdigital_preview_tile_figure(
     image="/data/img/Screenshots/Ausgabe/Screenshot-Frontend-GraphView.jpg",
-    image_alt="Graph view"
-    ) %}The "graph view" offers users an alternative option for navigating the portal.{% end %}
+    image_alt="Graphenansicht"
+    ) %}Mit der "Graphenansicht" bietet sich Benutzern eine alternative Navigationsoption.{% end %}
 
 {% museumdigital_preview_tile_figure(
     image="/data/img/Screenshots/Ausgabe/Screenshot-Frontend-Keyboard.jpg",
-    image_alt="Keyboard control of the museum-digital frontend."
-    ) %}Power users can navigate the portal using their keyboard through an emacs-inspired interface.{% end %}
+    image_alt="alt="Tastatursteuerung im Frontend von museum-digital."
+    ) %}Power-User können das Portal mithilfe der eingebauten Tastatursteuerung navigieren.{% end %}
 
 {% museumdigital_preview_tile_figure(
     image="/data/img/Screenshots/Ausgabe/Screenshot-Frontend-Compare.jpg",
-    image_alt="Comparing obects"
-    ) %}Two objects can be compared with each other.{% end %}
+    image_alt="Objekte vergleichen."
+    ) %}Objekte können mit einem anderen - vorher zum Vergleich vorgemerkten - Objekt verglichen werden.{% end %}
 
 {{ museumdigital_preview_list_end() }}
 
 ----
 
-### Technical Information
+### Technisches
 
-#### Focus - Design Principles
+#### Design
 
-"The "frontend" of museum-digital is primarily designed to always offer a clear focus on whichever information is central to a given page or section. This allows for easy understanding. A lot of additional options exist for power users - from visualizations to a command line menu embedded into the website. These are however "hidden" in sidebars or only accessible through keyboard shortcuts, so that they don't irritate first-time users.
+Die "Ausgabe" von museum-digital ist nach dem Prinzip gestaltet, dass auf jeder Seite nur einige wenige zentrale Elemente im Fokus stehen sollen, sodass ein einfaches Verständnis der Inhalte erleichtert wird. Viele weitere Optionen bestehen für Power-User - von Visualisierungen bis zu einer in die Webseite eingebauten Kommandozeile. Diese sind allerdings "versteckt", etwa in einer Seitenspalte oder durch Tastenkombinationen, um die Benutzbarkeit der Seite für Erstbenutzer nicht einzuschränken.
 
-#### API(s)
+#### Schnittstellen
 
-Publishing and making things accessible doesn't only mean making it possible to view something. It also means enabling people to use data to realize their own ideas. Accordingly, all information that is published using the "frontend" of museum-digital is also accessible in a machine-readable way via our JSON API.
+Zur Veröffentlichung und Verfügbarmachung zählt nicht nur das Ermöglichen der Betrachtung. Auch eigene Ideen mit den Daten umzusetzen gehört dazu. Entsprechend sind alle Informationen, die mit der "Ausgabe" von museum-digital veröffentlicht sind auch maschinell über eine einfach zu benutzende JSON-Schnittstelle auslesbar.
 
-As much as possible, the "frontend" provides information in open standards as well: object information can be accessed in [LIDO](http://www.lido-schema.org/), information about museums can be downloaded as electronic business cards ([vCard](https://de.wikipedia.org/wiki/VCard)), and calendar information such as exhibitions can be integrated with calendar tools using the [iCalendar](https://de.wikipedia.org/wiki/ICalendar) standard.
+Soweit sinnvoll, gibt die "Ausgabe" Informationen auch in passenden offenen Standardformaten aus: Objektinformationen können im [LIDO](http://www.lido-schema.org/)-Format abgerufen werden, für Museumsinformationen stehen digitale Visitenkarten ([vCard](https://de.wikipedia.org/wiki/VCard)) und für Termine Kalender und Kalendereinträge im [iCalendar](https://de.wikipedia.org/wiki/ICalendar)-Format zur Verfügung.
 
 {{ highlighted_tile_section(headline = "Open Standards", tiles = [
     [
@@ -165,9 +165,9 @@ As much as possible, the "frontend" provides information in open standards as we
     ]
 ]) }}
 
-#### Development
+#### Entwicklung
 
-The "frontend" of museum-digital is built using PHP8 and MySQL. JavaScript is used for interactive features and visualizations. A list of the used libraries can be found here. We use git for version control.
+Die Ausgabe von museum-digital basiert auf PHP8 und MySQL. Für Visualisierungen kommt JavaScript zum Einsatz, auch unter Zuhilfenahme einer Reihe von Bibliotheken, die hier eingesehen werden können. Für die Versionierung benutzen wir git.
 
 ----
 
@@ -187,20 +187,20 @@ Many museums come together to use museum-digital as a publication platform - and
 
 ----
 
-### Resources
+### Resourcen
 
 {{ museumdigital_linktiles_list_start() }}
 
 {% museumdigital_linktiles_tile(link="https://de.handbook.museum-digital.info/Ausgabe/",
     image="/data/img/logos-ext/mdBook.svg",
-    image_alt="") %}Handbook pages (German){% end %}
+    image_alt="") %}Handbuch zur Ausgabe{% end %}
 
 {% museumdigital_linktiles_tile(link="https://nat.museum-digital.de/index.php?t=text&st=api",
     image="/data/img/icons/more.svg",
-    image_alt="") %}Short introduction to the API{% end %}
+    image_alt="") %}Kurze Einführung zur API{% end %}
 
 {{ museumdigital_linktiles_list_end() }}
 
-{{ museumdigital_rss_tile(feed_url="https://blog.museum-digital.org/category/development/frontend/feed/",
-    html_url="https://blog.museum-digital.org/category/development/frontend/",
-    title="News About the Frontend in the Blog") }}
+{{ museumdigital_rss_tile(feed_url="https://blog.museum-digital.org/de/category/technik-design/ausgabe/feed/",
+    html_url="https://blog.museum-digital.org/de/category/technik-design/ausgabe/",
+    title="Neuigkeiten zur Entwicklung der Ausgabe im Blog") }}

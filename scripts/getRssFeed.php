@@ -10,14 +10,14 @@ declare(strict_types = 1);
 const CACHE_DIR = __DIR__ . '/../cached/fetched_feeds/';
 
 const FEEDS = [
-    'https://blog.museum-digital.org/tag/controlled-vocabularies/feed/',
-    'https://blog.museum-digital.org/category/development/feed/',
-    'https://blog.museum-digital.org/category/development/frontend/feed/',
-    'https://blog.museum-digital.org/category/development/musdb/feed/',
-    'https://blog.museum-digital.org/category/technik-design/themator-de/feed/',
-    'https://blog.museum-digital.org/category/development/development-md-term/feed/',
+    'https://blog.museum-digital.org/de/tag/kontrollierte-vokabulare/feed/',
+    'https://blog.museum-digital.org/de/category/technik-design/feed/',
+    'https://blog.museum-digital.org/de/category/technik-design/ausgabe/feed/',
+    'https://blog.museum-digital.org/de/category/technik-design/musdb-technik-design/feed/',
+    'https://blog.museum-digital.org/de/category/technik-design/themator-de/feed/',
+    'https://blog.museum-digital.org/de/category/technik-design/entwicklung-mdterm/feed/',
     'https://blog.museum-digital.org/category/technik-design/externe-tools/feed/',
-    'https://blog.museum-digital.org/feed/',
+    'https://blog.museum-digital.org/de/feed/',
 ];
 
 require __DIR__ . '/../themes/museum-digital-theme-zola/scripts/getRssFeed.php';

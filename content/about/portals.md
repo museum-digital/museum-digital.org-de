@@ -1,53 +1,55 @@
 +++
-title = "Portals"
-description = "museum-digital is represented on different, regional portals. Here is a list of them."
+title = "Portale"
+description = "museum-digital ist in verschiedene, regionale Portale unterteilt. Hier können Sie eine Liste dieser Portale finden."
 
 [extra]
-keywords = "Museum-digital, Portals, Museum Objects, Access"
+keywords = "museum-digital, Portal, Museumsobjekte, Objekte, Zugang"
 banner_image = "/data/img/banners/Banff-National-Park_Government-Bath-House-Banff-Canadian-Rockies.jpg"
 banner_image_alt = "Internet Archive Book Images. Image from page 226 of 'Bell telephone magazine' (1922). Identifier: belltelephone6667mag00amerrich."
 html_id = "portals"
 +++
 
-## The different portals of museum-digital
+## Die verschiedenen Portale von Museum-Digital
 
-Museum-digital is composed of different portals. Most of them are regionally structured.
+museum-digital ist in seinen Ausspielungen (Instanzen des "Haupt-Frontends") regional strukturiert. Ausgehend von Sachsen-Anhalt wurden anfangs regionale Portale für die verschiedenen Regionen in Deutschland angelegt. Diese werden mittlerweile in einer automatisch erstellten deutschlandweiten Instanz zusammengeführt, bestehen aber weiterhin. Internationale Instanzen sind nach Ländern strukturiert.
 
-### International Portals
+Eine Besonderheit in dieser Struktur bilden die öffentlichen Zusatz-Werkzeuge, der Themator und md:term.
+
+### Internationale Portale
 
 <div class="iconList">
 
 {% icon_list_entry(image="/data/img/logo/mdlogo-code-128px.png",
     image_alt="Logo",
-    link="https://global.museum-digital.org/") %}Worldwide{% end %}
+    link="https://global.museum-digital.org/") %}Weltweit{% end %}
 
 {% icon_list_entry(image="/data/img/regional-logos/nat.png",
     image_alt="Logo",
-    link="https://nat.museum-digital.de/") %}Germany{% end %}
+    link="https://nat.museum-digital.de/") %}Deutschland{% end %}
 
 {% icon_list_entry(image="/data/img/regional-logos/hu.png",
     image_alt="Logo",
-    link="https://hu.museum-digital.org/") %}Hungary{% end %}
+    link="https://hu.museum-digital.org/") %}Ungarn{% end %}
 
 {% icon_list_entry(image="/data/img/regional-logos/br.png",
     image_alt="Logo",
-    link="https://br.museum-digital.org/") %}Brazil{% end %}
+    link="https://br.museum-digital.org/") %}Brasilien{% end %}
 
 {% icon_list_entry(image="/data/img/regional-logos/intl.png",
     image_alt="Logo",
-    link="https://id.museum-digital.org/") %}Indonesia{% end %}
+    link="https://id.museum-digital.org/") %}Indonesien{% end %}
 
 {% icon_list_entry(image="/data/img/regional-logos/intl.png",
     image_alt="Logo",
-    link="https://at.museum-digital.org/") %}Austria{% end %}
+    link="https://at.museum-digital.org/") %}Österreich{% end %}
 
 {% icon_list_entry(image="/data/img/regional-logos/intl.png",
     image_alt="Logo",
-    link="https://ch.museum-digital.org/") %}Switzerland{% end %}
+    link="https://ch.museum-digital.org/") %}Schweiz{% end %}
 
 </div>
 
-### Regional portals in Germany
+### Regionale Portale in Deutschland
 
 <div class="iconList">
 
@@ -121,7 +123,7 @@ Museum-digital is composed of different portals. Most of them are regionally str
 
 </div>
 
-### Hungarian Regional Portals
+### Regionale Portale in Ungarn
 
 <div class="iconList">
 
@@ -203,7 +205,7 @@ Museum-digital is composed of different portals. Most of them are regionally str
 
 </div>
 
-### Regional Portals in Serbia
+### Regionale Portale in Serbien
 
 <div class="iconList">
 
@@ -213,7 +215,7 @@ Museum-digital is composed of different portals. Most of them are regionally str
 
 </div>
 
-### Regional Portals in Romania
+### Regionale Portale in Rumänien
 
 <div class="iconList">
 
@@ -223,7 +225,7 @@ Museum-digital is composed of different portals. Most of them are regionally str
 
 </div>
 
-### Regional portals in Switzerland
+### Regionale Portale in der Schweiz
 
 <div class="iconList">
 
@@ -233,7 +235,7 @@ Museum-digital is composed of different portals. Most of them are regionally str
 
 </div>
 
-### Regional portals in Austria
+### Regionale Portale in Österreich
 
 <div class="iconList">
 
@@ -247,7 +249,7 @@ Museum-digital is composed of different portals. Most of them are regionally str
 
 </div>
 
-### Regional Portals in the USA
+### Regionale Portale in den USA
 
 <div class="iconList">
 
@@ -281,25 +283,27 @@ museums record their collection information in the above-listed regional portals
 
 </div>
 
-## Themator: Topical Portals
+## Themator: Themenportale
 
-The [Themator](/software/themator) is a tool we developed to enable museums and like-minded people to create digital exhibitions and - more generally - to easily engage in digital storytelling. As the Themator was previously largely monolingual, we have set up different instances of it.
+Der [Themator](/software/themator) ist ein Werkzeug, entwickelt um Museen und anderen Interessierten eine einfache und flexible Möglichkeit zur Erstellung digitaler Ausstellungen, Lehrmaterialien etc. zu geben. Da der Themator weitestgehend monolingual ist, existieren aktuell zwei verschiedene Instanzen:
 
 {{ museumdigital_linktiles_list_start() }}
 
 {% museumdigital_linktiles_tile(link="https://themator.museum-digital.de/",image="data/img/logos/themator-128.png",image_alt="Logo") %}
-Themator in German
+Themator in Deutsch
 {% end %}
 
 {% museumdigital_linktiles_tile(link="https://hu-themator.museum-digital.org/",image="data/img/logos/themator-128.png",image_alt="Logo") %}
-Themator in Hungarian
+Themator in Ungarisch
 {% end %}
 
 {{ museumdigital_linktiles_list_end() }}
 
-## md:term: The controlled vocabularies of museum-digital made accessible
+## md:term: Öffentlicher Zugang zu den kontrollierten Vokabularen von museum-digital
 
-Around 2010, we started to use controlled vocabularies to facilitate the common tagging and interlinking of digitized objects. For a long time, these vocabularies were not accessible for any outside viewers. Since they may be a useful resource to some, we have since developed [md:term](/software/term-nodac) as a public and hopefully easily accessible portal for our (and some other) controlled vocabularies.
+Von Anfang an benutzt museum-digital kontrollierte Vokabulare, um ein gemeinsames Tagging und Verknüpfen von Objektdatensätzen zu ermöglichen. Da unsere so erstellten kontrollierten Vokabulare (die mit anderen Normdatenrepositorien wie Wikidata und der GND, dem AAT, geonames, LCSH, BNF, ... verknüpft sind) eine nutzbringende Ergänzung auch für andere sein können, haben wir md:term als öffentlichen Lese-Zugang zu den kontrollierten Vokabularen entwickelt. Neben dem "menschenlesbaren" Vokabularbrowser bietet md:term JSON- und SKOS-Schnittstellen, um auch eine maschinelle Nutzung der Daten einfach zu ermöglichen.
+
+Abgesehen von den museum-digital eigenen Vokabularen sind unter md:term auch einige externe, im Museumsbereich häufig verwendete Vokabularien zugänglich gemacht, so z.B. die Hessische Systematik oder die Hornbostel-Sachs-Klassifikation, zu finden.
 
 {{ museumdigital_linktiles_list_start() }}
 

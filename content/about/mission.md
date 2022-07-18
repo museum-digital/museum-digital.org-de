@@ -1,19 +1,19 @@
 +++
-title = "Mission and Vision"
-description = "museum-digital is a project for the digitization of museum data. Here we declare our mission."
+title = "Grundsätze"
+description = "museum-digital ist ein Projekt zur Digitalisierung von Museen. Hier erläutern wir unsere Mission."
 
 [extra]
-keywords = "Museum-digital, Museums, Digitization, Mission Statement, Aims"
+keywords = "museum-digital, Museen, Digitalisierung, mission statement, Ziele"
 banner_image = "/data/img/banners/RetrofuturismPostersNASA/ceres.jpg"
 banner_image_alt = "Courtesy NASA/JPL-Caltech."
 html_id = "mission"
 +++
 
-## Mission
 
-Museums and their objects should be online! Museum-digital's aim is to create simple to use tools and an appropriate environment for this. Museums that use a different software for inventory can use museum-digital for publishing their data. For all other museums that may not yet have a dedicated inventory tool museum-digital offers appropriate tools.
+Mission
 
-Museum-digital is a community: all participating museums can join the conversation on what the project should focus on, and how the software is to be developed further. By and by, infrastructure is set up to facilitate and develop the conversation about the digital and museums.
+Museen und ihre Objekte gehören ins Netz! museum-digital hat es sich zur Aufgabe gemacht hierfür eine einfach zu nutzende Möglicheit zu schaffen. Museen, die hausintern ihre Objekte mit einer anderen Software verwalten, steht museum-digital als Werkzeug der effektiven Web-Publikation zur Verfügung. Allen anderen Museen, die etwa erst noch eine Software zur Objektverwaltung benötigen - oder mit einer bisher verwendeten Software unzufrieden sind, bietet museum-digital die entsprechenden Inventarisierungsmöglichkeiten.
 
-An important principle of museum-digital is to respect existing structures.
+museum-digital versteht sich als Community, d.h. alle Museen, die daran teilhaben können mitbestimmen welchen Aufgaben sich die Initiative stellt und in welche Richtung die Software weiterentwickelt wird. Nach und nach werden Kanäle ausgebaut und geschaffen, die den Austausch über alle Aspekte des Digitalen im Museum unter Kollegen und KollegInnen ermöglichen.
 
+museum-digital baut auf bestende Strukturen auf, deshalb sind es in Deutschland die Museumsverbände und -beratungsstellen der Länder, die sich aktiv beteiligen und wesentliche Stützen der Initiative sind.

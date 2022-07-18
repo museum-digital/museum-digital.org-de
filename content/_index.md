@@ -1,10 +1,10 @@
 +++
 title = "museum-digital"
-description = "Start page of museum-digital's project page"
+description = "museum-digital ist eine Initiative zur Digitalisierung von Museen"
 template = "startpage.html"
 
 [extra]
-keywords = "Museums, Digitization, Community, Research"
+keywords = "Museen, Digitalisierung, Community, Forschung"
 banner_image = "/data/img/zalfa-imani-1xp5VxvyKL0-unsplash.jpg"
 banner_image_alt = "Zalfa Imani, December 1, 2020, Unsplash License, https://unsplash.com/photos/1xp5VxvyKL0"
 page_banner = [
@@ -31,7 +31,7 @@ html_id = "home"
 
 ## museum-digital
 
-museum-digital is an initiative, it is a software suite, and it is a platform. In January 2009, museum workers from the German state of Saxony-Anhalt gathered at the Kreismuseum Bitterfeld to discuss digitization and agreed to go online together. This was the founding event of museum-digital. Even then it was clear: Going online and becoming visible can only be achieved together. Together, software was developed; together, the museums present themselves and their objects online. What started as a small group in Saxony-Anhalt has now grown into a community that transcends national and language borders.
+museum-digital ist eine Initiative, ist eine Software-Suite und ist eine Platform. Im Januar 2009 kamen im Bitterfelder Kreismuseum Mitarbeiter und Mitarbeiterinnen von Museen aus Sachsen-Anhalt zusammen und beschlossen den Weg ins Netz zu wagen. Das war die Geburtsstunde von museum-digital. Schon damals war klar: Erfolgreich im Netz sichtbar werden, das kann nur gemeinsam gelingen. Gemeinsam wird die Software entwickelt und gemeinsam präsentieren sich die Museen im Netz. Was damals als kleine Gemeinschaft begann ist zu einer Community gewachsen, die Sprach- und Ländergrenzen überwindet.
 
 ----
 
@@ -39,11 +39,11 @@ museum-digital is an initiative, it is a software suite, and it is a platform. I
 
 ----
 
-### Collaboration and Mutual Aid
+### Gemeinsam gut
 
-Every museum has its possibilities and aims. At museum-digital, they work together. In contrast to other portals, museum-digital offers tools both for publishing and indexing object information. All museums of the instances using a common primary language are using a shared pool of controlled and enriched terms. Working on a centralized pool of controlled vocabularies saves each museum a lot of time and helps to visualize links between information from the different museums. It is thus a central part of successfully publishing online.
+Jedes Museum hat eigene Möglichkeiten und eigene Ziele. Bei museum-digital arbeiten alle zusammen. Anders als aktuelle Portale im Internet bietet museum-digital sowohl Möglichkeiten zur [Publikation](/software/frontend) als auch zur [Erfassung und Inventarisierung](/software/musdb) von Museumsobjekt-Informationen. Für jede Sprachversion gibt es einen gemeinsam genutzten und gepflegten Pool von kontrollierten und angereicherten Begriffen. Dieser zentralen Pool spart viel Arbeit, hilft Verknüpfungen sichtbar zu machen und ist die Grundlage des erfolgreichen Veröffentlichens im Netz.
 
-The community is inclusive and open: every museum can participate, as the greatest treasures are often found at far-off places. Being open for museums of all kinds and sizes is only possible by putting flexibility and simplicity first. These, together with giving each museum and user full control over their data are the main principles of museum-digital.
+Die Community von museum-digital schließt niemanden aus, jedes Museum kann sich beteiligen - die größten Schätze sind oft an den entlegendsten Orten zu finden. Offen sein für Museen aller Art und aller Größen - das gelingt nur, weil Flexibilität und Einfachheit als oberste Zielvorgaben die Arbeit von museum-digital bestimmen. Zu den wichtigsten Grundsätzen gehört darüberhinaus, dass jedes Museum jederzeit die volle Kontrolle über die Informationen zu seinen eigenen Objekten behält.
 
 ----
 

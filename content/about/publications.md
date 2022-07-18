@@ -1,17 +1,17 @@
 +++
-title = "Publications"
-description = "This page features a list of publications about and based on museum-digital."
+title = "Veröffentlichungen"
+description = "Auf dieser Seite findet sich eine Liste aller Publication zu und über museum-digital."
 
 [extra]
-keywords = "museum-digital, Research, Academy, Publications"
+keywords = "museum-digital, Forschung, Veröffentlichungen, Wissenschaft"
 banner_image = "/data/img/banners/british_library_hyroglyph.jpg"
 banner_image_alt = "Internet Archive Book Images. Image from page 518 of 'Bell telephone magazine' (1922). Identifier: belltelephone6667mag00amerrich."
 html_id = "publications"
 +++
 
-## Publications about museum-digital
+## Veröffentlichungen über museum-digital
 
-Besides providing infrastructure, museum-digital's flexibility and non-profit nature invites experimentation and provides ample opportunities for research. Over the years, a number of publications have been published on or based on museum-digital. You can find a list of these publications below.
+Die Flexibilität und Nicht-Kommerzialität von museum-digital bieten Raum für Innovation und Forschung. Über die Jahre sind eine Reihe von Texten über oder auf Basis von museum-digital veröffentlicht worden. Im folgenden findet sich eine Liste dieser Veröffentlichungen.
 
 - Wegerhoff, C. (2019). Museum digital: Hochauflösend statt Karteikasten [Radio-Feature]. WDR 5 Quarks - Hintergrund. https://www1.wdr.de/mediathek/audio/wdr5/quarks/hintergrund/audio-museum-digital-hochaufloesend-statt-karteikasten-100.html
 - Tunsch, T. (2019). Mangel an Museumsknoten: Vernetzungsfähigkeit einer Gedächtnisorganisation / Lack of museum nodes: Networking ability of a memory organization (pp. 111-117). [https://museums.fandom.com/wiki/Museumsknoten]

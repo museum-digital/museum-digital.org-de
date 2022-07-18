@@ -1,9 +1,9 @@
 +++
 title = "musdb"
-description = "musdb is museum-digital's tool for collection management. It has in many ways developed into a more general museum-management tool."
+description = "musdb ist unser Tool für Erfassung, Inventarisierung und Museumsmanagement."
 
 [extra]
-keywords = "musdb, Museum Management, Inventory, Software, Collection Management System"
+keywords = "musdb, Inventarisierung, Museumsmanagement, Museen, Software"
 banner_image = "/data/img/banners/usda_nrcs_montana_snow_survey65.jpg"
 banner_image_alt = "Public domain / US gov't work. USDA NRCS Montana / Snow Survey65.tif / Man working on computer, analyzing data, 1977."
 html_id = "musdb"
@@ -42,15 +42,15 @@ faq = [
 
 ## musdb
 
-musdb is museum-digital's tool for indexing and creating inventories. Originally developed for recording objects to be published only, it has since developed into a full-featured inventory and museum management solution.
+musdb wurde ursprünglich als Eingabetool zur öffentlichen Seite entwickelt. Seitdem haben wir es zu einem vollständigen Inventarisierungswerkzeug erweitert. Auch Funktionen zum Museumsmanagement sind vorhanden.
 
-Central to the development of musdb are:
+Zentral ist dabei:
 
-- musdb is developed based on requests by and communication with the museums using it
-- musdb is made with collaboration in mind: New features and fixes are available to all museums
-- using musdb means working collaboratively: the controlled vocabularies, that are used for linking people, times, places, and tags, are used together by all museums of a given language
-- working with musdb should be as easy and intuitive as possible
-- Tips and warnings are given to not just enter data, but to create high quality data
+- Weiterenwicklungen findet auf Wunsch und in Rücksprache mit den Museen statt
+- musdb wird kollaborativ entwickelt: Anpassungen für ein Museum stehen allen Museen zur Verfügung
+- mit musdb arbeitet man kollaborativ: die Vokabulare, die für Verknüpfungen mit Personen, Orten, Zeiten und Schlagworten benutzt werden, werden von allen Museen im gleichen Sprachraum gemeinsam genutzt
+- musdb ist auf eine einfache und intuitive Benutzung ausgelegt
+- Hilfestellungen und Warnungen regen dazu an, nicht nur einzugeben, sondern qualitativ hochwertige Datensätze zu erzeugen
 
 ----
 
@@ -60,89 +60,91 @@ Central to the development of musdb are:
 
 {% museumdigital_preview_tile_figure(
     image="/data/img/Screenshots/musdb/Screenshot-musdb-Dashboard.jpg",
-    image_alt="Dashboard/Default startpage of musdb."
-    ) %}The default start page is a customizable dashboard. Other start pages can be selected by the user.{% end %}
+    image_alt="Dashboard / Standard-Startseite von musdb."
+    ) %}Die Standard-Startseite von musdb ist ein benutzerdefinierbares Dashboard. Auch andere Seiten können vom Benutzer als Startseite eingestellt werden.{% end %}
 
 {% museumdigital_preview_tile_figure(
     image="/data/img/Screenshots/musdb/Screenshot-musdb-BatchEditing.jpg",
-    image_alt="Batch editing in musdb."
-    ) %}musdb features batch editing functionalities for batch publishing or tagging.{% end %}
+    image_alt="Stapelverarbeitung in musdb."
+    ) %}musdb bietet Funktionalitäten zur Stapelverarbeitung. Beispielsweise können Filtermengen gesammelt vertaggt oder veröffentlicht werden.{% end %}
 
 {% museumdigital_preview_tile_figure(
     image="/data/img/Screenshots/musdb/Screenshot-musdb-Export.jpg",
-    image_alt="XML export"
-    ) %}Users can export their data in our own md:xml (a simple notation featuring all available fields) and LIDO.{% end %}
+    image_alt="XML-Export"
+    ) %}Benutzer können ihre Daten in md:xml (einer einfachen Notation für die Informationen aller verfügbaren Felder) und LIDO exportieren.{% end %}
 
 {% museumdigital_preview_tile_figure(
     image="/data/img/Screenshots/musdb/Screenshot-musdb-Backgrounds.jpg",
-    image_alt="Background research tool."
-    ) %}Using the "backgrounds" section, users can browse the controlled vocabularies directly from musdb.{% end %}
+    image_alt="Hintergrund-Recherche-Tool."
+    ) %}Im Bereich "Hintergründe" können Benutzer direkt in musdb in den kontrollierten Vokabularen recherchieren.{% end %}
 
 {% museumdigital_preview_tile_figure(
     image="/data/img/Screenshots/musdb/Screenshot-musdb-Find-an-Expert.jpg",
-    image_alt="Find an expert: Connecting users."
-    ) %}Using the "Find an Export" button, users can find other users who have done much work on a given topic. Still, every user can decide if they want to let others find them through this tool or not.{% end %}
+    image_alt='Finde einen Exporten": Benutzer verbinden.'
+    ) %}Mit dem "Finde einen Experten"-Button können Benutzer andere finden, die zum gleichen Thema gearbeitet haben. Nur solche Benutzer, die dies explizit anschalten, werden hier aufgelistet.{% end %}
 
 {% museumdigital_preview_tile_figure(
     image="/data/img/Screenshots/musdb/Screenshot-musdb-Multilingual.jpg",
-    image_alt="Multilingual usage of musdb."
-    ) %}Musdb is multilingual and it can handle multilingual inputs.{% end %}
+    image_alt="Mehrsprachigkeit in musdb."
+    ) %}musdb ist mehrsprachig und kann auch mit mehrsprachigen Eingaben arbeiten.{% end %}
 
 {% museumdigital_preview_tile_figure(
     image="/data/img/Screenshots/musdb/Screenshot-musdb-Navigation.jpg",
-    image_alt="Navigation of musdb."
-    ) %}The navigation gives a rough overview over different sections of musdb: Museums, Collections, Objects, Object Groups, Exhibitions, etc.{% end %}
+    image_alt="Navigation von musdb."
+    ) %}Die Navigation gibt einen groben Überblick über die verschiedenen Sektionen von musdb: Museen, Sammlungen, Objekte, Objektgruppen, Ausstellungen, und mehr.{% end %}
 
 {% museumdigital_preview_tile_figure(
     image="/data/img/Screenshots/musdb/Screenshot-musdb-ObjectOverview.jpg",
-    image_alt="Object overview page."
-    ) %}An object overview page in image mode. The sidebar on the right offers search and filter-based exporting and batch editing functionalities. A simple list view is also available.{% end %}
+    image_alt="Objektübersicht in musdb."
+    ) %}Eine Objekt-Übersichtsseite im Bildermodus. In der rechten Sidebar werden verschiedene Option zur Suche und zum filterbasierten Export angeboten. Eine einfache Listenansicht ist ebenfalls verfügbar.{% end %}
 
 {% museumdigital_preview_tile_figure(
     image="/data/img/Screenshots/musdb/Screenshot-musdb-ObjectPage.jpg",
-    image_alt="Object page"
-    ) %}The main section of an object page. At the top, most basic information on the object can be entered. At the bottom, the tabbed menu for managing detailed information on the object can be seen.{% end %}
+    image_alt="Objektseite"
+    ) %}Die Hauptsektion der Objektseite. Oben können Basisinformationen zum Objekt eingegeben werden. Unten sind die Registerkarten für die Bearbeitung detaillierter Informationen zum Objekt sichtbar.{% end %}
 
 {% museumdigital_preview_tile_figure(
     image="/data/img/Screenshots/musdb/Screenshot-musdb-RecordHistory.jpg",
-    image_alt="Record history of an object."
-    ) %}Edits to an object are logged. If the user who previously edited the object set up their user profile, new users who see the logs can get to know others from the museum through the logs.{% end %}
+    image_alt="Datensatzgeschichte eines Objektes."
+    ) %}Bearbeitungen an Objektdatensätzen werden geloggt.{% end %}
 
 {% museumdigital_preview_tile_figure(
     image="/data/img/Screenshots/musdb/Screenshot-musdb-Research.jpg",
-    image_alt="Provenance research tab"
-    ) %}Using the provenance research tab, detailed reports on a predefined set of critical issues can be recorded.{% end %}
+    image_alt="Registerkarte: Provenienzrecherche."
+    ) %}Mit der Registerkarte Provenienzrecherche können detaillierte Reporte zu einer vordefinierten Auswahl von relevanten Themen gespeichert werden.{% end %}
 
 {% museumdigital_preview_tile_figure(
     image="/data/img/Screenshots/musdb/Screenshot-musdb-Restoration.jpg",
-    image_alt="Restoration tab on a musdb object page"
-    ) %}The restoration tab of an object page offers options for color-coded and easily accessible notes towards the top of the section, detailed ones on the bottom.{% end %}
+    image_alt="Registerkarte: Restaurierung"
+    ) %}Die Registerkarte Restauration bietet einerseits die Option, eine farbkodierte und schnell zu erfassende Zusammenfassung des Objektzustands zu notieren, andererseits detaillierte Reporte zu speichern.{% end %}
 
 {% museumdigital_preview_tile_figure(
     image="/data/img/Screenshots/musdb/Screenshot-musdb-Settings.jpg",
-    image_alt="User management and user rights section"
-    ) %}Museum directors and regional administrators set detailed permissions for what users can edit or view.{% end %}
+    image_alt="Benutzer- und Rechteverwaltung."
+    ) %}Museumsdirektoren können detaillierte Rechte- und Zugriffseinstellungen für die Benutzer ihres Museums vornehmen.{% end %}
 
 {{ museumdigital_preview_list_end() }}
 
 ----
 
-### Technical Information
+### Technisches
 
-#### Design Principles
+#### Design
 
-Musdb should be easy and intuitive to use. It should be fun to use. On the one hand, this means that the design should give a clear focus to the main subject of a given page. To reach this aim, options exist to toggle many features on or off. Optional features (like generating QR codes for object pages or a table of contents to directly jump to the wanted section of a page) are available in a toolbox on the left border of the window.
+musdb soll einfach und intuitiv zu benutzen sein. Es soll Spaß machen. Das heißt, dass die Oberfläche einen klaren Fokus auf den Haupt-Gegenstand der jeweiligen Seite bieten sollte. Um dieses Ziel zu erreichen besteht für Benutzer an vielen Stellen die Möglichkeit, sich Features an- und auszuschalten. Optionale Features (etwa die zur Generierung eines QR-Codes für Objektseiten, oder ein "Inhaltsverzeichnis" um auf einer längeren Seite direkt zum richtigen Bereich zu springen) sind in einer Toolbox am Fensterrand untergebracht.
 
-But _easy_ and _intuitive_ also means that power users can work efficiently in whatever way suits them best. Musdb offers a variety of aids for this. A selection of these are:
+_Einfach_ heißt aber auch, dass häufige Benutzer schnell - und auf die ihnen am meisten gelegene Art - arbeiten können. Dafür bietet musdb eine Vielzahl an Hilfestellungen. Bei der folgenden Liste handelt es sich deshalb nur um eine Auswahl:
 
-- Clicking into a field, users can see how many characters have been entered, how many are required, and how many are allowed at max.
-- PuQi: the "Publication Quality Index" shows, how object information can be enhanced
-- Plausi: using the controlled vocabularies, musdb can warn about implausible entries (e.g. a painter cannot have painted a painting before she was born)
-- Text blocks provide for a quick entry of similar contents
+- Eine Anzeige, wieviele Buchstaben in einem Eingabefeld eingegeben sind und wieviele es mindestens und maximal sein können
+- PuQi: Der Publikationsqualitätsindex zeigt, wie sich die Angaben zum Objekt verbessern lassen
+- Plausi: Mithilfe der kontrollierten Vokabulare kann musdb warnen, wenn Eingaben nicht plausibel sind (Beispiel: Eine Malerin kann ein Gemälde nicht gemalt haben, bevor sie geboren wurde)
+- Textbausteine erleichtern die schnelle Eingabe von gleichen Inhalten
 
-#### Development
+Alternativ zur üblichen Navigation mit der Maus ermöglicht musdb eine umfassende Steuerung per Tastatur und ein eigenes Kontextmenü.
 
-Musdb is based on PHP8 and MySQL. A number of PHP and JavaScript libraries are used, a list of which can be found in the handbook.
+#### Entwicklung
+
+musdb basiert auf PHP8 und MySQL. Eine Reihe PHP- und JavaScript-Bibliotheken kommen zum Einsatz. Die Liste der verwendeten Bibliotheken kann im Handbuch gefunden werden.
 
 ----
 
@@ -181,13 +183,13 @@ musdb is build for multi-lingual use and has been translated to a number of lang
 
 ----
 
-### Resources
+### Resourcen
 
 {{ museumdigital_linktiles_list_start() }}
 
 {% museumdigital_linktiles_tile(link="https://de.handbook.museum-digital.info/musdb/",
     image="/data/img/logos-ext/mdBook.svg",
-    image_alt="") %}Documentation (German){% end %}
+    image_alt="") %}musdb im Handbuch{% end %}
 
 {% museumdigital_linktiles_tile(link="https://www.youtube.com/playlist?list=PLFbmcALPcmvLtbv38OpjEkHFteP-qhmDY",
     image="/data/img/logos-ext/YouTube_social_red_square_2017.svg",
@@ -195,10 +197,10 @@ musdb is build for multi-lingual use and has been translated to a number of lang
 
 {% museumdigital_linktiles_tile(link="https://demo.museum-digital.org/musdb/swagger/",
     image="/data/img/icons/more.svg",
-    image_alt="") %}API documentation{% end %}
+    image_alt="") %}API-Dokumentation{% end %}
 
 {{ museumdigital_linktiles_list_end() }}
 
-{{ museumdigital_rss_tile(feed_url="https://blog.museum-digital.org/category/development/musdb/feed/",
-    html_url="https://blog.museum-digital.org/category/development/musdb/",
-    title="News About the Development of musdb") }}
+{{ museumdigital_rss_tile(feed_url="https://blog.museum-digital.org/de/category/technik-design/musdb-technik-design/feed/",
+    html_url="https://blog.museum-digital.org/de/category/technik-design/musdb-technik-design/",
+    title="Neuigkeiten zur Entwicklung von musdb im Blog") }}

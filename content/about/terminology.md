@@ -1,33 +1,29 @@
 +++
-title = "Terminology work"
-description = "At museum-digital we use controlled vocabularies, to enrich the users' experience. Here we describe, how they are handled."
+title = "Terminologie-Arbeit "
+description = "Bei museum-digital nutzen wir kontrollierte Vokabulare um das Auffinden zu erleichtern. Hier beschreiben wir, wie wir dabei vorgehen."
 
 [extra]
-keywords = "Terminology, Museums, Controlled Vocabularies, Tagging"
+keywords = "Terminologie, Museen, Kontrolliertes Vokabular, Tagging"
 banner_image = "/data/img/banners/Banner_Heiligbrodt_Collections_Insects_Unlocked.jpg"
 banner_image_alt = "Public domain image by Alex Wild for the Insects Unlocked project. / Ludolph Heiligbrodt collection / The insect collection of 19th century Texas naturalist Ludolph Heiligbrodt is housed at the University of Texas at Austin."
 html_id = "terminology"
 +++
 
-## Controlled Vocabularies at museum-digital
+## Kontrollierte Vokabulare bei museum-digital
 
-Controlled vocabularies are a central issue to museum-digital. Sorted into four catagories (Persons and Institutions, Geographical Places, Times, and Keywords), terms are enriched with definitions and links to external controlled vocabularies and services (Wikipedia, GND, ULAN, RKD, MBL, LAGIS, geonames, TGN, AAT, LCSH, ...). At the same time, they are categorized hierarchically. This provides for the possibility to return objects linked to subordinate terms to searches for a given superordinate term. A search for "vehicle" thus returns any object linked to "car" as well.
-
-----
-
-## How are the Vocabularies Controlled?
-
-The curation of controlled vocabularies at museum-digital takes place in a centralized manner. All museums of all instances of a given primary language work together to create a common database of controlled terms. Since curating controlled vocabularies is time consuming, we try to reduce the participating museums' workload in this regard as much as possible. Besides, a centralized curation of controlled vocabularies leads to more uniform results.
-
-To ease the curation, we have developed a tool, "nodac", which automatizes much of the enrichment work and offers a simple interface for positioning terms hierarchically. With this tool, norm data editors, can also use batch editing functionalities for enhancing the controlled vocabularies.
-
-The curation of controlled vocabularies is thus a joint effort of the participating museums, direct volunteering, and support by a number of state governments, led by a small team of "norm data editors".
+Für museum-digital sind kontrollierte Begriffe von zentraler Bedeutung. In vier verschiedenen Katalogen werden Akteure (Personen, Institutionen, ...) Geografika (Orte und Gebäude), Zeiten (Zeitpunkte und Zeiträume) sowie Schlagworte erfasst. Die einzelnen Begriffe werden angereichert mit Definitionen und Verweisen auf externe kontrollierte Vokabulare (Wikipedia, GND, ULAN, RKD, MBL, LAGIS, geonames, TGN, AAT, LCSH, ...). Gleichzeitig werden die Begriffe in Hierarchien eingepasst. Dies hat den Vorteil, dass bei einer Suche nach einem übergeordneten Begriff immer auch die Objekte zu den untergeordneten Begriffen gefunden werden. Eine Suche nach Kinderspielzeug findet so auch alle Schaukelpferde und eine Suche nach Fahrzeugen findet alle Automobile.
 
 ----
 
-### Current Progress
+## Wie werden die Vokabulare kontrolliert?
 
-"Cleaning" and ordering the controlled vocabularies is an ever-ongoing effort. To get a clearer view of how far we've progressed in terms of actually controlling the vocabularies, we work with an approval system.
+Vokabulararbeit ist bei museum-digital zentralisiert. Alle Museen in allen Instanzen einer Sprachvariante von museum-digital arbeiten mit dem jeweils gleichen Set von kontrollierten Begriffen. Gründliche Vokabularbeit ist sehr zeitaufwendig sein, deshalb wurde versucht möglichst viel davon den teilnehmenden Museen abzunehmen. Zentralisierte Vokabularbeit führt außerdem zu eindeutigeren Resultaten. Für die Vokabulararbeit haben wir ein eigenes Tool, nodac, entwickelt mit welchem viele Anreicherungen semi-automatisch durchgeführt werden können und mit dem es einfach ist, die jeweiligen Hierarchien zu erzeugen. Mit diesem Tool lassen sich zudem Massenkorrekturen durchführen. Aus freiwilligen Beiträgen der Museen, mit Unterstützung einiger Bundesländer, aus Projektmitteln und insbesondere durch ehrenamtlichen Einsatz wird die Normdatenarbeit von einem kleinem Team bewerkstelligt.
+
+----
+
+###Derzeitiger Stand
+
+Die kontrollierten Vokabulare zu ordnen und anzureichern ist ein immer währender Prozess, nicht zuletzt weil neue Inhalte jeden Tag dazu kommen. Um eine klarere Einschätzung unseres Fortschritts treffen zu können, benutzen wir eine Ampel-Kategorisierung für den Prüfstatus der Einträge.
 
 {{ chart_md_vocabulary_progress() }}
 
@@ -35,19 +31,19 @@ The curation of controlled vocabularies is thus a joint effort of the participat
 
 {{ museumdigital_linktiles_list_start() }}
 
-{% museumdigital_linktiles_tile(link="/software/term-nodac",
-    image="/data/img/icons/more.png",
-    image_alt="Logo") %}Page on md:term and nodac (German){% end %}
+{% museumdigital_linktiles_tile(link="/software/term",
+    image="/data/img/logos/mdterm-128px.png",
+    image_alt="Logo") %}md:term (Vokabularbrowser){% end %}
 
-{% museumdigital_linktiles_tile(link="https://de.handbook.museum-digital.info/Einleitung/Entstehung.html",
-    image="/data/img/logos-ext/mdBook.svg",
-    image_alt="Logo") %}Handbook: Our History (German){% end %}
+{% museumdigital_linktiles_tile(link="/software/nodac",
+    image="/data/img/logos/mdterm-128px.png",
+    image_alt="Logo") %}nodac{% end %}
 
 {{ museumdigital_linktiles_list_end() }}
 
 ----
 
-{{ museumdigital_rss_tile(feed_url="https://blog.museum-digital.org/tag/controlled-vocabularies/feed/", html_url="https://blog.museum-digital.org/tag/controlled-vocabularies/", title="News") }}
+{{ museumdigital_rss_tile(feed_url="https://blog.museum-digital.org/de/tag/kontrollierte-vokabulare/feed/", html_url="https://blog.museum-digital.org/de/tag/kontrollierte-vokabulare/", title="Neuigkeiten") }}
 
 {{ embed_chartjs() }}
 <script src="/js/dashboard-controlled-vocabs-status.js" type="text/javascript" async></script>

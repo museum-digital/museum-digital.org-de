@@ -1,9 +1,9 @@
 +++
 title = "Software"
-description = "At museum-digital, we have developed a set of software solutions to aid different parts of museum (digitization) work."
+description = "Bei museum-digital haben wir verschiedene Software-Anwendungen entwickelt, um die Digitalisierung im Museum zu erleichtern."
 
 [extra]
-keywords = "Software, Museums, Museum Objects, Museum Software, museum-digital"
+keywords = "Software, Museen, Museumsobjekte, Museumssoftware, museum-digital"
 banner_image = "/data/img/banners/RetrofuturismPostersNASA/grand_tour.jpg"
 banner_image_alt = "Courtesy NASA/JPL-Caltech."
 html_id = "software"
@@ -11,13 +11,13 @@ html_id = "software"
 
 ## Software
 
-At museum-digital, we have developed a set of software solutions to facilitate an easy and inclusive process of digitization in museums. Originally, museum-digital was founded to publish object information online. We thus began by developing a [public interface for viewing object information](/software/frontend).
+Bei museum-digital haben wir über die Jahre verschiedene Anwendungen entwickelt, um unserem Ziel, einer einfachen und inklusiven Digitalisierung im Museum näherzukommen. museum-digital wurde ursprünglich zum Zwecke der digitalen Publikation von Objektdaten [gegründet](/about), und so entwickelten wir zuerst eine [Ausgabeoberfläche für Objektinformationen](/software/frontend).
 
-Since the original method of data input - the museums entered their data into their local database, sent it to the programmers, the programmers entered it to museum-digital - did not scale well, we then developed a simple online input interface, [musdb](/software/musdb). Some museums, that did not yet have a dedicated database for inventorized data, but knew musdb well, began to ask additional inventory functionalities. And thus the approach of musdb changed: instead of being an input interface to a publication platform, it turned into an inventory tool with the option to publish.
+Da die ursprüngliche Eingabemethode - Museum erfasst die Daten lokal, sendet sie an Programmierer, Programmierer trägt sie in die Datenbank ein - bald nicht mehr zu stemmen war, wurde eine einfache Eingabeoberfläche, [musdb](/software/musdb), entwickelt. Einige Museen, die noch keine Inventarisierungsdatenbank, aber Erfahrung mit musdb hatten, begannen nach Inventarisierungsfunktionen zu fragen, und so änderte sich der Anspruch von musdb: Statt einer Eingabeoberfläche für eine Publikationsplatform, wurde es zum Inventarisierungswerkzeug mit Publikationsoption.
 
-Soon after, requests for options to more thoroughly present digital narratives and stories became more frequent. While museum objects may be interesting by themselves, it is also a central task of museums to contextualize them. As a reaction to these requests, we created the [Themator](/software/themator) as an independent tool for writing and publishing stories online.
+Bald darauf begann die Frage nach einer Möglichkeit zur digitalen Erfassung von Geschichten drängender zu werden. Museumsobjekte, die nicht in einen Kontext eingebettet sind, mögen zwar interessant sein, aber auch das Einbetten der Objekte in einen größeren Zusammenhang ist eine zentrale Aufgabe von Museen. Als Reaktion auf diese Frage wurde der [Themator](/software/themator) als unabhängig von den vorherigen Werkzeugen laufendes Tool entwickelt.
 
-Early on, when developing the main frontend and musdb, we decided to use controlled vocabularies for all databases of a given language. Internally, we use our "norm data control tool" [nodac](/software/term-nodac) for curating these. Since the vocabularies have grown considerably since, and have become a useful resource on their own by now, we have also developed a searchable frontend for these, [md:term](/software/term-nodac).
+Eine frühe Richtungsentscheidung bei der Entwicklung der Ausgabe und von musdb war es, mit allen Museen einer Sprachversion gemeinsam kuratierte kontrollierte Vokabulare zu verwenden. Diese werden intern mit dem Normdaten-Kontroll-Tool [nodac](/software/nodac) bearbeitet. Da die Vokabulare zunehmend wuchsen und wachsen, und mittlerweile selbst eine nutzbringende Quelle auch für andere Anwendungen sein können, entwickelten [md:term](/software/term), mit dem Nutzer die Vokabulare durchsuchen und maschinell auslesen können.
 
 ----
 
@@ -25,7 +25,7 @@ Early on, when developing the main frontend and musdb, we decided to use control
 
 {% museumdigital_linktiles_tile(link="/software/frontend",
     image="/data/img/logo/mdlogo-code-128px.png",
-    image_alt="Logo") %}Frontend/Portals{% end %}
+    image_alt="Logo") %}Ausgabe/Portals{% end %}
 
 {% museumdigital_linktiles_tile(link="/software/musdb",
     image="/data/img/logo-musdb/musdbLogoBrown-128.png",
@@ -43,6 +43,6 @@ Early on, when developing the main frontend and musdb, we decided to use control
 
 ----
 
-{{ museumdigital_rss_tile(feed_url="https://blog.museum-digital.org/category/development/feed/",
-    html_url="https://blog.museum-digital.org/category/development/",
-    title="Tech-Related News in our Blog") }}
+{{ museumdigital_rss_tile(feed_url="https://blog.museum-digital.org/de/category/technik-design/feed/",
+    html_url="https://blog.museum-digital.org/de/category/technik-design/",
+    title="Technik-bezogene Neuigkeiten in unserem Blog") }}
