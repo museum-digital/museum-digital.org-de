@@ -1,18 +1,18 @@
-# English-language Homepage for Presenting museum-digital
+# Deutschsprachige Website zur Präsentation von museum-digital
 
-## Purpose of this Website
+## Zweck dieser Website
 
-This website is to give an overall image of museum-digital and the various linked endeavours.
+Diese Website soll einen allgemeinen Überblick über museum-digital und seine verschiedenen Aktivitäten und Softwarelösungen bieten.
 
 ## Setup
 
-This website is generated using [Zola](https://www.getzola.org/). Additional information is fetched from remote APIs using PHP scripts.
+Die Website wird mit [Zola](https://www.getzola.org/) generiert. Weitere Inhalte werden mithilfe von PHP-Scripten aus verschiedenen APIs bezogen.
 
-## License & Credits
+## Lizenz und Danksagung
 
-Unless otherwise mentioned, the content of this site is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) (Attribution to museum-digital is sufficient).
+Soweit nicht anders gekennzeichnet sind die Inhalte dieser Seite unter CC BY 4.0 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) lizensiert.
 
-The banner images in `/static/data/img/banners/` are in the public domain, except for the following:
+Die Banner-Bilder im Ordner `/static/data/img/banners/` sind gemeinfrei, außer:
 
-- `zalfa-imani-1xp5VxvyKL0-unsplash.jpg` is licensed under the Unsplash license and available at [[https://unsplash.com/photos/1xp5VxvyKL0]].
-- All images in /data/img/banners/RetrofuturismPostersNASA/ are courtesy of NASA / JPL-Caltech.
+- `zalfa-imani-1xp5VxvyKL0-unsplash.jpg` ist unter der Unsplash license lizensiert und unter [[https://unsplash.com/photos/1xp5VxvyKL0]] abrufbar.
+- Alle Bilder im Ordner /data/img/banners/RetrofuturismPostersNASA/ sind courtesy of NASA / JPL-Caltech.
