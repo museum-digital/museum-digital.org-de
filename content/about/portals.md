@@ -259,16 +259,16 @@ Eine Besonderheit in dieser Struktur bilden die öffentlichen Zusatz-Werkzeuge, 
 
 {% icon_list_entry(image="/data/img/regional-logos/intl.png",
     image_alt="Logo",
-    link="https://ca.usa.museum-digital.org/") %}California{% end %}
+    link="https://ca.usa.museum-digital.org/") %}Kalifornien{% end %}
 
 </div>
 
-### Aggregated Instances by Topic
+### Aggregierte, thematische Portale
 
 {% lr_section_image_left(image = "/data/img/logos/groupit.svg", image_alt = "Logo") %}
 #### GroupIt
 
-museums record their collection information in the above-listed regional portals. The collection data is then synchronized to aggregated instances using a dedicated synchronization tool, _GroupIt_. The primary aggregated instances are then - obviously - the respective national and worldwide instances. We can however also generate topical collection catalogues based on the synchronization of collections, object groups, or the whole institution.
+Museen erfassen und veröffentlichen ihre Sammlungen bei museum-digital primär in einer der oben gelisteten regionalen Instanzen.  Die veröffentlichten Daten werden in der Folge mit dem Synchronisierungstool GroupIt in übergeordnete, aggregierte Instanzen synchronisiert. Die primären aggregierten Instanzen sind dabei die jeweilige nationale und die globale Instanz. Gleichzeitig können so aber auch thematische Portale auf Basis der Synchronisation einzelner Sammlungen, Objektgruppen oder Institutionen erstellt werden.
 {% end %}
 
 <div class="iconList">

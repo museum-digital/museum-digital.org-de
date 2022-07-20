@@ -1,6 +1,6 @@
 +++
 title = "nodac"
-description = "nodac is museum-digital's tool for curating controlled vocabularies."
+description = "nodac ist das museum-digitals Werkzeug für das Verwalten von kontrollierten Vokabularen."
 
 [extra]
 keywords = "Software, Controlled Vocabularies, Subject Headings"
@@ -10,27 +10,27 @@ html_id = "termNodac"
 og_image = "/data/img/logos/mdterm-512px.png"
 faq = [
     [
-        "Can nodac be used with my own vocabulary?",
-        "Sure. A given instance of nodac always caters to only one specific vocabulary. We can however set up any number of instances."
+        "Kann nodac mit meinem eigenen Vokabular arbeiten?",
+        "Wahrscheinlich ja. Eine gegebene Instanz von nodac kann aber jeweils nur ein Set von Vokabularen verwalten, sodass wir eine weitere einrichten müssten."
     ],
     [
-        "Can I use nodac to publish my controlled vocabulary?",
-        "No. nodac is a management tool only. We have however built a separate tool, [md:term](/software/term), with which any vocabulary edited in nodac can be published."
+        "Kann ich nodac benutzen, um mein kontrolliertes Vokabular zu veröffentlichen?",
+        "Nein. nodac ist ein reines Verwaltungs-Tool. Für die Veröffentlichung kontrollierter Vokabulare (besonders solcher, die in nodac verwaltet werden) haben wir mit [md:term](/software/nodac) ein eigenes Tool geschaffen."
     ],
 ]
 +++
 
-## Nodac: Manage Controlled Vocabularies
+## nodac: Kontrollierte Vokabulare verwalten
 
-nodac is museum-digital's tool for curating controlled vocabularies. That means labeling, describing, translating, creating hierarchies of concepts and linking concepts to the corresponding entries in external repositories like Wikidata, GND, AAT, geonames, etc.
+nodac ist das Werkzeug von museum-digital zum Kuratieren kontrollierter Vokabulare. Das bedeutet das korrekte Benennen, Beschreiben, Übersetzen und übersetzen der Einträge; das Erstellen von Begriffshierarchien und das Verknüpfen von Begriffen mit den entsprechenden Einträgen in externen Repositories wie Wikidata, GND, AAT, Geonamen.
 
-As the primary management tool behind museum-digital's vocabularies it is essential for nodac to be trainable. In nodac, one can blacklist terms altogetherr, set up the automatic transfer of terms from one vocabulary to another and store permanent rewrites of terms to their canonical forms. It is thus build to not only facilitate a precise editing process, but also a sustainable one despite limited resources.
+Als primäres Management-Tool hinter den Vokabularen von museum-digital muss nodac trainierbar sein. So kann man in nodac Begriffe grundsätzlich _blacklisten_ , die automatische Übertragung von Begriffen von einem Vokabular in ein Anderes festlegen das und dauerhafte Umschreibungen von Begriffen in ihre kanonikalische Form speichern. So ermöglicht nodac nicht nur einen präsizen, sondern vor allem auch einen nachhaltigen und resourcenschonenden Einsatz.
 
-nodac is able to work with multiple polyhierarchical thesauri and follows the SKOS 2 standard.
+nodac kann mit mehreren polyhierarchischen Thesauri entsprechend des SKOS 2-Standards arbeiten.
 
 ### Linked open data
 
-From the start, nodac has been written with linked open data in mind. It not only helps curating such links but also enables the automatic retrieval of data recorded at Wikidata, the Gemeinsame Normdatei (GND).
+An vielen Stellen nutzt nodac die Vorteile von Linked Open Data. So können Quellen wie Wikidata und die Gemeinsame Normdatei (GND) nicht nur verknüpft, sondern auch zur automatischen Vervollständigung  eines Datensatzes genutzt werden.
 
 ----
 
@@ -40,48 +40,48 @@ From the start, nodac has been written with linked open data in mind. It not onl
 
 {% museumdigital_preview_tile_figure(
     image="/data/img/Screenshots/nodac/Screenshot_nodac_01_Startpage.png",
-    image_alt="Start page of nodac"
-    ) %}The start page of nodac lists new entries and one's own activity. It can be customized using stored searches.{% end %}
+    image_alt="Startseite von nodac"
+    ) %}Auf der Startseite von nodac werden die neuesten Einträge aufgelistet und ein Überblick über die eigenen Aktivitäten gegeben. Sie kann mit gespeicherten Suchabfragen an das eigene Arbeiten angepasst werden.{% end %}
 
 {% museumdigital_preview_tile_figure(
     image="/data/img/Screenshots/nodac/Screenshot_nodac_02_Overview_Actors.png",
-    image_alt="Overview page for actors."
-    ) %}Overview pages display the current progress in curating a given controlled vocabulary in text and in charts. All metrics are searchable.{% end %}
+    image_alt="Übersichtsseite für Akteure"
+    ) %}Übersichtsseiten zeigen den bisherigen Fortschritt beim Anreichern und Kontrollieren eines Vokabulars als Text und in Diagrammen. Alle gezeigten Metriken fungieren gleichzeitig als Vorschläge für weitere Suchen.{% end %}
 
 {% museumdigital_preview_tile_figure(
     image="/data/img/Screenshots/nodac/Screenshot_nodac_03_Search_Tags.png",
     image_alt=""
-    ) %}A search results page for tags. In the left sidebar, you can see some of the available search options.{% end %}
+    ) %}Eine Trefferliste einer Suche nach Schlagworten. In der linken Seitenspalte sind viele der verfügbaren Suchoptionen zu sehen.{% end %}
 
 {% museumdigital_preview_tile_figure(
     image="/data/img/Screenshots/nodac/Screenshot_nodac_06_Edit_Page_Actor.png",
     image_alt=""
-    ) %}Editing page for actors (1): Each concept has a respective editing page. Here, one can add a description and other basic information, translations; categorize the entity as "approved" and set synonyms for the entry.{% end %}
+    ) %}Bearbeitungsseite für Akteure (1): Für jede erfasste Entität existiert eine Bearbeitungsseite. Hier können Beschreibungen und andere Basisinformationen erfasst und übersetzt werden. Über die Linke Seitenspalte kann die Entität als "gecheckt" kategorisiert und zu anderen Begriffen Synonym gesetzt werden.{% end %}
 
 {% museumdigital_preview_tile_figure(
     image="/data/img/Screenshots/nodac/Screenshot_nodac_07_Actors_noda_Links.png",
     image_alt=""
-    ) %}Editing page for actors (2): Links to a set of the most important norm data repositories can be added as well.{% end %}
+    ) %}Bearbeitungsseite für Akteure (2): Auch die Repräsentation derselben Entität in den wichtigsten Normdatenrepositorien kann erfasst werden.{% end %}
 
 {% museumdigital_preview_tile_figure(
     image="/data/img/Screenshots/nodac/Screenshot_nodac_08_Edit_Page_Actor_Objects.png",
     image_alt=""
-    ) %}Editing page for actors (3): nodac can be linked to musdb. If it is, objects linked to a given entity will be listed at the bottom of the editing page.{% end %}
+    ) %}Bearbeitungsseite für Akteure (3): nodac kann mit musdb verknüpft werden. Ist das der Fall, werden die mit einem gegebenen Eintrag verknüpften Objekte aus musdb ganz unten auf der Bearbeitungsseite aufgelistet.{% end %}
 
 {% museumdigital_preview_tile_figure(
     image="/data/img/Screenshots/nodac/Screenshot_nodac_09_Import_Wikidata.png",
     image_alt=""
-    ) %}If an entity or concept is already known in Wikidata / Wikipedia, data can be imported from there. Here, Wikidata entries are offered for selection based on their names.{% end %}
+    ) %}Falls eine Entität bereits in Wikidata / Wikipedia bekannt ist, können die dort vorhandenen Daten importiert werden. Hier zu sehen ist eine Suche in Wikidata auf Basis des Namens.{% end %}
 
 {% museumdigital_preview_tile_figure(
     image="/data/img/Screenshots/nodac/Screenshot_nodac_10_Places_Wikidata_by_Coordinates.png",
     image_alt=""
-    ) %}Specifically for places, corresponding Wikidata entities can also be found based on the place's coordinates.{% end %}
+    ) %}Speziell für Orte gibt es die Möglichkeit, den entsprechenden Ort in Wikidata auf Basis der Koordinaten zu suchen.{% end %}
 
 {% museumdigital_preview_tile_figure(
     image="/data/img/Screenshots/nodac/Screenshot_nodac_05_Actors_Blacklist.png",
     image_alt=""
-    ) %}Terms that are certainly unusable in a given controlled vocabulary can be blacklisted to prevent them from similarly named entries being created ever again.{% end %}
+    ) %}Begriffe, die eindeutig und unter allen Umständen falsch sind, können verboten werden. In der Folge können gleichnamige Begriffe weder in musdb noch in nodac selbst neu angelegt werden.{% end %}
 
 {{ museumdigital_preview_list_end() }}
 
@@ -95,7 +95,7 @@ From the start, nodac has been written with linked open data in mind. It not onl
 
 {% museumdigital_linktiles_tile(link="https://de.handbook.museum-digital.info/nodac/index.html",
     image="/data/img/logos-ext/mdBook.svg",
-    image_alt="Logo") %}Handbook (German) on nodac{% end %}
+    image_alt="Logo") %}Handbuch zu nodac{% end %}
 
 {{ museumdigital_linktiles_list_end() }}
 

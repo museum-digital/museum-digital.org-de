@@ -10,32 +10,32 @@ html_id = "musdb"
 og_image = "/data/img/logo-musdb/musdbLogoBrown.svg"
 faq = [
     [
-        "How much does musdb cost?",
-        "musdb is free of charge and will stay so. Users with the required permissions can add as many additional users as necessary."
+        "Was kostet die Nutzung von musdb?",
+        "musdb kann kostenfrei genutzt werden, jetzt und in Zukunft. Benutzer mit den nötigen Berechtigungen innerhalb des Museums können soviele zusätzliche Benutzerkonten erstellen wie nötig."
     ],
     [
-        "What are the system requirements for musdb?",
-        "musdb is fully web-based. Thus only an up-to-date browser is required to use musdb."
+        "Welche Systemanforderungen stellt die Nutzung von musdb?",
+        "musdb ist vollständig web-basiert. Ein aktueller Browser ist damit die einzige Anforderung für die Benutzung von musdb."
     ],
     [
-        "Is it possible to use musdb only for collection management without publishing?",
-        "Yes."
+        "Ist es möglich, musdb ausschließlich für die Inventarisierung zu verwenden und nicht zur Veröffentlichung?",
+        "Ja."
     ],
     [
-        "Can I import my existing collection data to musdb?",
-        "In principle, yes. Given that the data has been compiled in a structured way, we have thus far always found a way to import the data. Import scripts for common exchange formats such as LIDO and exports from other popular collection management systems exist out of the box (a list can be [found in the handbook](https://de.handbook.museum-digital.info/import/liste-der-importformate.html)) and can be used in cooperation with our technical team or on one's own using musdb's WebDAV interface for import data."
+        "Kann ich meine existierenden Sammlungsdaten in musdb importieren?",
+        "Im Prinzip, ja. Solange die Daten in einem strukturierten Format vorliegen, haben wir bisher immer einen Weg gefunden, die Daten zu importieren. Importscripte für übliche Austauschformate wie LIDO und die Standard-Exportformate anderer Inventarisierungslösungen sind bereits verfügbar (eine Liste der direkt importierbaren  Formate [findet sich im Handbuch](https://de.handbook.museum-digital.info/import/liste-der-importformate.html)) und können zusammen mit unserem Technik-Team oder über musdb's WebDAV-Schnittstelle für den Import genutzt werden."
     ],
     [
-        "Does musdb support two-factor authentication?",
-        "Yes. Users can enable two-factor authentication based on hardware tokens (e.g. Yubikeys or Nitrokeys), TOTP (which is e.g. used by Google Authenticator) or by mail."
+        "Unterstützt musdb Zwei-Faktor-Authentifizierung?",
+        "Ja. musdb unterstützt Zwei-Faktor-Authentifizierung mit Hardware-Tokens (wie Yubikeys oder Nitrokeys), TOTP (das Protokoll hinter z.B. dem Google Authenticator) oder per Mail."
     ],
     [
-        "Is there any limit to the number of images that can be uploaded per object?",
-        "No. You may upload as many images (or other media types such as video, audio, PDFs, or 3D representations) as necessary."
+        "Gibt es eine Beschränkung der Abbildungen, die pro Objekt hochgeladen werden können?",
+        "Nein. Es können so viele Abbildungen (Bilder, Videos, Audio-Dateien, PDFs oder 3D-Abbildungen) wie nötig hochgeladen oder verknüpft werden."
     ],
     [
-        "Can musdb be used for managing our museum library?",
-        "Yes."
+        "Kann musdb für die Verwaltung der Museumsbibliothek verwendet werden?",
+        "Ja."
     ],
 ]
 +++
@@ -148,33 +148,33 @@ musdb basiert auf PHP8 und MySQL. Eine Reihe PHP- und JavaScript-Bibliotheken ko
 
 ----
 
-{{ build_accordion_lr_section(title = "Features and basic concepts", items = [
+{{ build_accordion_lr_section(title = "Features und Grundkonzepte", items = [
     [
-        "Centralized Controlled Vocabularies",
-        "All museums working with musdb use one set of controlled vocabularies for linked actors, places, times, and tags. The work for enriching such concepts with translations, links to the common norm data repositories etc. thus only needs to be done once - and everybody immediately profits from having accessible those entries that have already been entered for another museum beforehand."
+        "Zentralisiert verwaltete kontrollierte Vokabulare",
+        "Alle Museen, die mit musdb arbeiten, arbeiten mit einem gemeinsamen Katalog von kontrollierten Vokabularen für Akteure, Orte, Zeiten und Schlagworte. Die Arbeit diese kontrollierten Vokabulare anzureichern wid dabei von einer zentralen Redaktion übernommen - und muss dank der Zentralisierung nur einmal gemacht werden. So profitiert ein Museum von den Einträgen, die ein anderes schon gemacht hat."
     ],
     [
-        "Exports",
-        "All object data can be exported using a simple XML notation based on our own data structure ('md:xml') for full exports or in common exchange formats such as LIDO. An export to Excel files and autogenerated catalogues are available as well.",
+        "Exporte",
+        "Alle Objektdaten können in einer einfachen XML-Notation, die unsere Datenstruktur abbildet ('md:xml') für die Datensicherung und in üblichen Austauschformatenformaten wie LIDO exportiert werden. Ein Export in Excel ist ebenfalls möglich.",
     ],
     [
-        "Edit whichever way is most suitable to you",
-        "musdb supports a multitude of ways to update object data. Users can toggle the object editing page to a fully customizable form, in which given fields or subsections of object data can be moved in place using drag and drop. For editing many objects at once, there are batch editing capabilities and a table-based editing mode available. And if you're still not satisfied, you can even write your own interface using the API."
+        "Sammlungsdaten auf dem passendsten Weg bearbeiten",
+        'musdb unterstützt verschiedene Wege, Objektdaten zu bearbeiten. Benutzer können die "benutzerdefinierte Objektbearbeitungsseite" aktivieren, in der nur die nötigen Felder herangezogen und per Drag-and-Drop positioniert werden können.  Um viele Objekte nebeneinander zu bearbeiten, ist ein Tabellen-Bearbeitungsmodus verfügbar. Und wenn auch das nicht reicht, können eigene Oberflächen mithilfe der API von musdb erstellt werden.'
     ],
     [
-        "Flexible search",
-        "Searching objects is done using a custom query language built on top of the Manticore search database and our taxonomies. If you want to search not only objects, but a given term in all of your museum's data, you can use musdb's universal search feature."
+        "Flexible Suchfunktionen",
+        "Objekte werden auf Basis einer eigenen Abfragesprache, die auf Basis der Manticore Suchdatenbank und unseren Taxonomien arbeitet, gesucht. Eine graphische Oberfläche bietet einen einfachen Einstieg in die Suchfunktion. Möchte man in allen Inhalten der Institution suchen, bietet sich dafür die universelle Suche an."
     ],
     [
-        "Automatic quality control",
-        "musdb aims to make it easy to enter high quality data. To this end, we have included many features for, among other things, enabling you to simply make tags more specific using our controlled vocabularies and a simple right click; PuQI, a tool for quantifying the quality of publishable object information entered; automatic improvement suggestions, that enable you to semi-automatically run obvious corrections and completions of your data using a Tinder-like interface."
+        "Automatische Qualitätsprüfung",
+        "musdb versucht das Erfassen von qualitativ hochwertigen Daten möglichst einfach zu machen. Dafür bietet es viele Features, wie die Möglichkeit, ein verknüpftes Schlagwort per Rechtsclick zu spezifizieren; PuQI, ein Werkzeug zum Quantifizierung der Qualität von publizierbaren Objektdaten; einen Plausibilitäts-Check (ein Maler kann z.B. kein Gemälde gemalt haben, bevor er geboren wurde); und automatische Verbesserungsvorschläge zur Vervollständigung des Datensatzes."
     ],
 ]) }}
 
 ----
 
 {% counter_section_left(api = "md_musdb_system", name = "languages") %}
-musdb is build for multi-lingual use and has been translated to a number of languages. Of course, we are always looking forward to help in translating the musdb (just like all other tools at museum-digital) to new languages. A description of how our dedicated translation tool can be used for doing so is [available on the blog (German)](https://blog.museum-digital.org/de/2019/03/02/museum-digital-uebersetzen/).
+musdb ist für die mehrsprachige Nutzung gebaut, und ist in mehrere Sprachen übersetzt worden. Natürlich freuen wir uns immer über zusätzliche Hilfe, musdb auch in andere Sprachen zu übersetzen. Hierfür steht ein eigenes Tool zur Verfügung, das wir [im Blog beschrieben haben](https://blog.museum-digital.org/de/2019/03/02/museum-digital-uebersetzen/).
 {% end %}
 
 ----

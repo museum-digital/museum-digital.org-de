@@ -29,15 +29,15 @@ Sie können einem einzelnen Museum durch Rat und Tat zur Seite stehen. Unter fas
 <br/>
 
 {% lr_section_image_right(image = "/data/img/icons/Language-Icon.svg", image_alt = "Language icon") %}
-#### Translation
+#### Übersetzen
 
-We hope to make museum-digital available and useful to all people. Not all people speak the same language. All kinds of translations in all languages are highly welcome.
+museum-digital sollte für alle Menschen verfügbar und nützlich sein. Und nicht alle Menschen sprechen dieselbe Sprache. Übersetzungen in alle Sprachen sind großer Beitrag.
 {% end %}
 
 <br/>
 
 {% lr_section_image_left(image = "/data/img/logos/mdterm-512px.png", image_alt = "Logo") %}
-#### Enriching controlled vocabulary
+#### Anreicherung der kontrollierten Vokabulare
 
-Another way of participation is to join the norm data editors and collaborate with them in managing, enriching and translating the controlled vocabularies of museum-digital.
+Eine weitere große, aber umso wertvollere Aufgabe kann es sein, Mitglied im Team der Normdatenredaktion zu werden. Die Normdatenredaktion verwaltet unsere kontrollierten Vokabulare für Akteure, Orte, Zeiten und Schlagworte.
 {% end %}

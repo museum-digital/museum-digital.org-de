@@ -10,24 +10,24 @@ html_id = "frontend"
 og_image = "/data/img/logo/mdlogo-code-1024px.png"
 faq = [
     [
-        "How can a museum publish its objects on museum-digital?",
-        "The museum first needs to set up in [musdb](/software/musdb) by the regional administrators responsible for the respective instance of museum-digital. For this, we require a name, an address, a short description of the museum (min. 25 characters), and an image symbolizing the museum. Once the museum has been set up in musdb, objects can be entered and published one by one - or the existing collection data of an institution can be imported in bulk. The institution is only publicly listed once one of its objects has been published."
+        "Wie kann ein Museum seine Objekte auf museum-digital veröffentlichen?",
+        "Zuerst muss das Museum in einer der regionalen Instanzen von [musdb](/software/musdb) eingerichtet werden. Dies geschieht durch die jeweils zuständigen Regionaladministratoren und erfordert einen Namen, eine Adresse, eine kurze Beschreibung des Museums (mindestens 25 Buchstaben) und ein Bild zum Museum. Sobald das Museum in musdb eingerichtet ist können neue Objekte direkt in musdb erfasst werden - oder sie können importiert werden, falls die Sammlungsdaten schon anderweitig strukturiert erfasst wurden. Eine Institution wird erst öffentlicht gelistet, wenn sie mindestens ein Objekt veröffentlicht hat."
     ],
     [
-        "Are past versions of object pages archived for enabling scientific references?",
-        "Yes. Once a public object page has been updated, a snapshot of its contents are taken and made available using the page archive."
+        "Werden Objektseiten in einer wissenschaftlich referenzierbaren Form archiviert?",
+        'Ja. Sobald ein öffentliches Objekt bearbeitet wird, wird ein Schnappschuss der entsprechenden Seiteninhalte erstellt und über die "Seitenarchiv"-Funktion verfügbar gemacht.'
     ],
     [
-        "Does the frontend of museum-digital offer persistent URLs?",
-        "We do not automatically assign DOIs, handles, or anything alike to published pages. We however take utmost care, that any URL of a primary page (e.g. an object or museum page) is kept stable and that there are sufficient referals from old URL structures to have no links be lost."
+        "Bietet die Ausgabe von museum-digital persistente URIs?",
+        "Wir erstellen beim Veröffentlichen neuer Inhalte nicht automatisch DOIs, handles, oder andere der üblichen für Methoden für das erstellen persistenter Identifier. Frei [nach Tim Berners-Lee](https://www.w3.org/Provider/Style/URI) achten wir aber darauf, unsere klassischen URLs stabil zu halten und, wo das nicht möglich ist, auf die heute genutzte URL weiterzuleiten. So sollten, abseits von z.B. wegen rechtlicher Gründe depublizierten Objekten, alle primären Inhaltsseiten (wie Objekte, Institutionen, Sammlungen, etc.) bis heute erreichbar sein."
     ],
     [
-        "Is the layout of the frontend of museum-digital responsive?",
-        "Yes."
+        "Unterstützt die Ausgabe von museum-digital _responsive design_?",
+        "Ja."
     ],
     [
-        "I have a great idea for a new visualization method? Can you implement it?",
-        "If it is really a good and suitable idea, sure. Just send us a mail."
+        "Ich habe eine tolle Idee für eine neue Visualisierungsfunktion! Kann die implementiert werden?",
+        "Falls es wirklich eine gute Idee ist - unbedingt! Am besten erreichen uns Vorschläge per Mail."
     ],
 ]
 +++
@@ -98,7 +98,7 @@ Um ein umfassendes Bild der Museen und ihrer Objekte zu liefern, wurden seitdem 
 
 {% museumdigital_preview_tile_figure(
     image="/data/img/Screenshots/Ausgabe/Screenshot-Frontend-Keyboard.jpg",
-    image_alt="alt="Tastatursteuerung im Frontend von museum-digital."
+    image_alt="Tastatursteuerung im Frontend von museum-digital."
     ) %}Power-User können das Portal mithilfe der eingebauten Tastatursteuerung navigieren.{% end %}
 
 {% museumdigital_preview_tile_figure(
@@ -125,43 +125,43 @@ Soweit sinnvoll, gibt die "Ausgabe" Informationen auch in passenden offenen Stan
 {{ highlighted_tile_section(headline = "Open Standards", tiles = [
     [
         'LIDO',
-        'for object metadata',
-        "Based on [CIDOC-CRM](https://www.cidoc-crm.org/), LIDO offers a standardized XML format for exchanging object metadata for museums. Many of the central concepts museum-digital is built on originate from LIDO (such as the event structure for more precisely describing location and dating).",
+        'für Objektmetadaten',
+        "Basierend auf [CIDOC-CRM](https://www.cidoc-crm.org/) ist LIDO ein standartisiertes XML-Format für den Austausch von Objektmetadaten von Museen. Viele der zentralen Konzepte von museum-digital basieren auf LIDO (z.B. die Ereignisstruktur um Orte und Datierungen eines Objektes zu erfassen).",
     ],
     [
         'iCalendar',
-        'for calendar entries',
-        "Calendar entries for events and exhibitions can be downloaded and subscribed to using the [iCalendar](https://de.wikipedia.org/wiki/ICalendar) format and the adjacent WebCal standard. iCalendar is a well-established format that can - among others - be used for importing events to one's mobile calendar.",
+        'für Termine',
+        "Termine für Veranstaltungen und Ausstellungen sowie ganze Kalender derselben können mit dem [iCalendar](https://de.wikipedia.org/wiki/ICalendar)-Format und dem darauf aufbauenden WebCal exportiert und abonniert werden. iCalendar ist ein etablierter Standard, der z.B. auch für den Import eines Termins in den Kalender eines Smartphones genutzt werden kann.",
     ],
     [
         'vCard',
-        "for institutions' contact information",
-        "What iCalendar is for calendar entries, vCard is for contact information: A very simple and widely adopted standard that can be used for exchanging contact information between practically all of the popular address book managers. museum-digital's frontend implements the interoperable sharing of museums and collections' contact information using vCard.",
+        "für Kontaktinformationen",
+        "Was iCalendar für Kalendereinträge ist, ist vCard für das Adressbuch: Ein simpler und weit verbreiteter Standard für das Austauschen von Kontaktinformationen, der von den allermeisten gebräuchlichen Adressbuch-Anwendungen unterstützt wird. Die Ausgabe von museum-digital implementiert vCards für den Austausch der Kontaktinformationen von Museen.",
     ],
     [
         'oEmbed',
-        'for referencing object, series, and institution pages',
-        'oEmbed is a standard for describing the preferred way to embed a page in another. Using oEmbed, object, institution and series pages can be referenced in - e.g. - WordPress blog posts in a breeze.',
+        'for das Einbetten von Objekt- Objektgruppen- und Museumsseiten',
+        'oEmbed ist ein Standard für das Beschreiben eines bevorzugten Weges für das Einbetten einer Seite in eine Andere. Mit oEmbed können Objekte, Institutionen und Objektgruppen in andere Webseiten - z.B. ein WordPress-Blog - eingebettet werden.',
     ],
     [
         'TEI',
-        'for transcriptions',
-        'TEI (Text Encoding Initiative) is a standard for encoding text in a maschine-readable way. At museum-digital, it is natively supported for transcriptions and can be used as an alternative output format for object information focusing on transcriptions and the sending / receiving of letters and similar objects.',
+        'für Transkriptionen',
+        'TEI (Text Encoding Initiative) ist ein Standard für das Kodieren von Text in einem Maschinenlesbaren Format. Bei museum-digital können Transkriptionen eines Objektes in TEI erfasst werden. Gleichzeitig bietet jede Objektseite eine Ausgabe im TEI-Format, die besonders für die Beschreibung des Sendens und Empfangens von Briefen und ähnlichen Objekten optimiert ist.',
     ],
     [
         'IIIF',
-        'for images',
-        '[IIIF](https://iiif.io/) offers a standardized API for referencing images or sections of these. In the standard setup, images are gathered to represent a thing (e.g. a museum object), but these collections can in turn be compiled into superordinate collections. As IIIF requires server-side editing of the images before they are sent to the user, it is only available for locally hosted images. For these however, IIIF version 2.1 is fully implemented.',
+        'für Bilder',
+        '[IIIF](https://iiif.io/) bietet eine standartisierte Schnittstelle für das referenzieren von Bildern oder Bildausschnitten. museum-digital unterstützt IIIF für lokal gehostete Bilder in der Version 2.1.',
     ],
     [
         'RSS',
-        'for staying up-to-date',
-        "Where objects are listed, museum-digital's frontend generates an RSS feed. These feeds can be subscribed to using a feed reader.",
+        'um auf dem aktuellsten Stand zu bleiben',
+        "Wo Objekte, Austellungen oder Veranstaltungen aufgelistet werden, findet sich in der Ausgabe von museum-digital ein RSS-Feed. Mit diesen Feeds lassen sich Aktualisierungen in der jeweiligen Liste abonnieren.",
     ],
     [
         'JSON-LD',
-        'for making information legible to Search Engines',
-        "Google and other search engines can use more detailed [structured data](https://developers.google.com/search/docs/advanced/structured-data/intro-structured-data) for generating previews about some commonly appearing types of data - such as events or FAQs. Whereever suitable, the required structured data is provided by the frontend.",
+        'um Inhalte für Suchmaschinen verständlicher zu machen',
+        "Google und andere Suchmaschinen können mithilfe der passenden [strukturierten Daten](https://developers.google.com/search/docs/advanced/structured-data/intro-structured-data) wesentlich genauere, zusätzliche Voransichten generieren. Die Reihe der Unterstützten Inhaltetypen geht von FAQs über Bildlizenzen zu Veranstaltungshinweisen.",
     ]
 ]) }}
 
@@ -171,14 +171,14 @@ Die Ausgabe von museum-digital basiert auf PHP8 und MySQL. Für Visualisierungen
 
 ----
 
-{% counter_section_left(api = "md_frontend_system", name = "languages") %}
-The frontend is build for multi-lingual use and has been translated to a number of languages. Of course, we are always looking forward to help in translating the frontend (just like all other tools at museum-digital) to new languages. A description of how our dedicated translation tool can be used for doing so is [available on the blog (German)](https://blog.museum-digital.org/de/2019/03/02/museum-digital-uebersetzen/).
+{% counter_section_left(api = "md_frontend_system", name = "Sprachen") %}
+Das Frontend ist für die mehrsprachige Nutzung gebaut, und ist in mehrere Sprachen übersetzt worden. Natürlich freuen wir uns immer über zusätzliche Hilfe, die Ausgabe auch in andere Sprachen zu übersetzen. Hierfür steht ein eigenes Tool zur Verfügung, das wir [im Blog beschrieben haben](https://blog.museum-digital.org/de/2019/03/02/museum-digital-uebersetzen/).
 {% end %}
 
 ----
 
-{% counter_section_right_plain_number(api = "md_global_stats", selector = "museums", name = "institutions") %}
-Many museums come together to use museum-digital as a publication platform - and thus come to present their objects using the frontend.
+{% counter_section_right_plain_number(api = "md_global_stats", selector = "museums", name = "Institutionen") %}
+Viele Museen und Gedächtnisinstitutionen nutzen museum-digital - und damit primär die Ausgabe -  gemeinsam als Veröffentlichungsplattform.
 {% end %}
 
 ----

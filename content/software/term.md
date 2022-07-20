@@ -3,24 +3,24 @@ title = "md:term"
 description = "md:term is a vocabulary browser that is, among others, used for making museum-digital's controlled vocubaliries accessible on their own."
 
 [extra]
-keywords = "Software, Controlled Vocabularies, Subject Headings"
+keywords = "Software, Kontrollierte Vokabulare, Taxonomien"
 banner_image = "/data/img/banners/Bell-telephone-magazine-1922-p518.jpg"
 banner_image_alt = "Image from page 518 of 'Bell telephone magazine' (1922). Internet Archive Book Images, Ident.: belltelephone7273mag00amerrich."
 html_id = "termNodac"
 og_image = "/data/img/logos/mdterm-512px.png"
 +++
 
-## md:term - Vocabulary Browser
+## md:term - Vokabularbrowser
 
-md:term is a browser for controlled vocabularies. Using it one can navigate through hierarchies of keywords and places, view the description and translations of labels and concepts. Most importantly the controlled vocabularies are made searchable and provided in a machine-readable formats as much as in a human readable way.
+md:term ist ein öffentliches Interface für kontrollierte Vokabulare. Mit ihm kann man Hierarchien von Schlagworten und Orten navigieren, die Beschreibungen und Übersetzungen von Labels und Konzepten betrachten. Aber vor allem ermöglicht es das gezielte Suchen innerhalb eines gegebenen Vokabulars und stellt die Einträge in menschen- und maschinenlesbaren Formaten bereit.
 
-----
+---- 
 
-### md:term as a portal
+### md:term als Portal
 
-The reference implementation of md:term presents museum-digital's controlled vocabularies for places, actors, tags and time along with some external ones like Hornbostel-Sachs-Systematk or Technikthesaurus. The vocabularies presented in md:term can be downloaded in bulk.
+Die Referenzimplementierung von md:term präsentiert museum-digitals kontrollierte Vokabulare für Orte, Akteure, Schlagworte und Zeiten zusammen mit einigen externen - wie der Hornbostel-Sachs-Systematk oder dem Technikthesaurus. Die in md:term präsentierten Vokabulare können auch als Gesamtabzug heruntergeladen werden.
 
-md:term might be used independent of museum-digital as a presentation tool for vocabularies. However, it works best in combination with md:nodac.
+md:term kann unabhängig von museum-digital als Präsentationstool für Vokabulare verwendet werden. Am Besten funktioniert es jedoch in Kombination mit [nodac](/software/nodac).
 
 ----
 
@@ -30,18 +30,18 @@ md:term might be used independent of museum-digital as a presentation tool for v
 
 {% museumdigital_preview_tile_figure(
     image="/data/img/Screenshots/Term/Screenshot_term_place_2.png",
-    image_alt="md:term place page: Hansaviertel"
-    ) %}Besides the always-available links to machine-readable export options, base information and links to norm data repositories, place pages list super- and subordinate places and the place on a map.{% end %}
+    image_alt="md:term Ortsseite: Hansaviertel"
+    ) %}Neben den stets verfügbaren Links zu maschinenlesbaren Exportmöglichkeiten, Basisinformationen und Links zu Normdatenrepositorien listen Ortsseiten über- und untergeordnete Orte auf und zeigen den Ort auf einer Karte auf.{% end %}
 
 {% museumdigital_preview_tile_figure(
     image="/data/img/Screenshots/Term/Screenshot_term_tag.png",
-    image_alt="md:term tag page"
-    ) %}A tag page will position the tag hierarchically, reference other norm data repositories, describe it and offer machine-readable export options. Additionally, objects from museum-digital may be listed.{% end %}
+    image_alt="md:term Schlagwortseite"
+    ) %}Eine Schlagwortseite positioniert das Schlagwort hierarchisch, verweist auf andere Normdatenbestände, beschreibt es und bietet maschinenlesbare Exportmöglichkeiten. Zusätzlich können Objekte von museum-digital gelistet werden.{% end %}
 
 {% museumdigital_preview_tile_figure(
     image="/data/img/Screenshots/Term/Screenshot_term_downloads.png",
-    image_alt="Download page of md:term"
-    ) %}Full JSON and SKOS / XML dumps of our controlled vocabularies can be downloaded using the download page{% end %}
+    image_alt="Downloadseite von md:term"
+    ) %}Vollständige JSON- und SKOS/XML-Dumps unserer kontrollierten Vokabulare können über die Download-Seite heruntergeladen werden{% end %}
 
 {{ museumdigital_preview_list_end() }}
 
@@ -51,7 +51,7 @@ md:term might be used independent of museum-digital as a presentation tool for v
 
 {% museumdigital_linktiles_tile(link="https://de.handbook.museum-digital.info/md-term/index.html",
     image="/data/img/logos-ext/mdBook.svg",
-    image_alt="Logo") %}Handbook (German) on md:term{% end %}
+    image_alt="Logo") %}md:term im Handbuch{% end %}
 
 {% museumdigital_linktiles_tile(link="https://term.museum-digital.de/",
     image="/data/img/logos/mdterm-128px.png",

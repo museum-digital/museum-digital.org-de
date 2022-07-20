@@ -35,6 +35,6 @@ museum-digital ist auf Mehrsprachigkeit ausgerichtet und stets offen für neue M
 
 ----
 
-{{ museumdigital_rss_tile(feed_url="https://blog.museum-digital.org/feed/",
-    html_url="https://blog.museum-digital.org/",
+{{ museumdigital_rss_tile(feed_url="https://blog.museum-digital.org/de/feed/",
+    html_url="https://blog.museum-digital.org/de/",
     title="Neuigkeiten") }}

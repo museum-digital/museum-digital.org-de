@@ -15,13 +15,13 @@ Für museum-digital sind kontrollierte Begriffe von zentraler Bedeutung. In vier
 
 ----
 
-## Wie werden die Vokabulare kontrolliert?
+### Wie werden die Vokabulare kontrolliert?
 
 Vokabulararbeit ist bei museum-digital zentralisiert. Alle Museen in allen Instanzen einer Sprachvariante von museum-digital arbeiten mit dem jeweils gleichen Set von kontrollierten Begriffen. Gründliche Vokabularbeit ist sehr zeitaufwendig sein, deshalb wurde versucht möglichst viel davon den teilnehmenden Museen abzunehmen. Zentralisierte Vokabularbeit führt außerdem zu eindeutigeren Resultaten. Für die Vokabulararbeit haben wir ein eigenes Tool, nodac, entwickelt mit welchem viele Anreicherungen semi-automatisch durchgeführt werden können und mit dem es einfach ist, die jeweiligen Hierarchien zu erzeugen. Mit diesem Tool lassen sich zudem Massenkorrekturen durchführen. Aus freiwilligen Beiträgen der Museen, mit Unterstützung einiger Bundesländer, aus Projektmitteln und insbesondere durch ehrenamtlichen Einsatz wird die Normdatenarbeit von einem kleinem Team bewerkstelligt.
 
 ----
 
-###Derzeitiger Stand
+### Derzeitiger Stand
 
 Die kontrollierten Vokabulare zu ordnen und anzureichern ist ein immer währender Prozess, nicht zuletzt weil neue Inhalte jeden Tag dazu kommen. Um eine klarere Einschätzung unseres Fortschritts treffen zu können, benutzen wir eine Ampel-Kategorisierung für den Prüfstatus der Einträge.
 

@@ -12,18 +12,18 @@ page_banner = [
         "/data/img/zalfa-imani-1xp5VxvyKL0-unsplash.jpg",
         "",
         "museum-digital:global",
-        "museum-digital helps museums bring their collections online. All published objects can be found at museum-digital:global.",
+        "museum-digital hilft Museen ihre Sammlungen online zu bringen. Alle veröffentlichten Objekte können gemeinsam auf museum-digital:global durchsucht werden.",
         [
             "https://global.museum-digital.org/search.php",
             "sv",
-            "Browse the collections"
+            "Suchen"
         ]
     ],
     [
         "/data/img/banners/cat.jpg",
         "",
-        "Digital Storytelling",
-        "Using the <a href='https://en.about.museum-digital.org/software/themator/'>Themator</a>, museums can publish their narratives digitally both in a more traditional 'portal' form as well as a scrollytelling format",
+        "Digitales Storytelling",
+        'Mit dem <a href="/software/themator/">Themator</a> können Museen und andere ihre Erzählungen in einer Portalansicht und im "Scrollytelling"-Format veröffentlichen.',
     ]
 ]
 html_id = "home"
@@ -47,24 +47,24 @@ Die Community von museum-digital schließt niemanden aus, jedes Museum kann sich
 
 ----
 
-### The Fruit of Common Efforts
+### Das Ergebnis gemeinsamer Anstrengungen
 
 <br/>
 
 {% lr_section_image_right(image = "/data/img/logo/mdlogo-code-256px.png", image_alt = "Logo") %}
-#### Publishing, from a regional to a global context
+#### Veröffentlichung, im regionalen und globalen Kontext
 
-museums publish and manage their collection data primarily in regional instances of museum-digital. Published data is however also aggregated in larger instances, such as [museum-digital:global](https://global.museum-digital.org/), that allow searching in all the collections published on museum-digital.
+Museen veröffentlichen ihre Sammlungsdaten bei museum-digital zuallererst in einer "regionalen" Instanz. Von dort werden sie automatisch in übergeordnete Instanzen, wie [museum-digital:global](https://global.museum-digital.org/), synchronisiert, die eine Suche über die Sammlungen vieler Museen auf einen Schlag ermöglichen.
 
 <form action="https://global.museum-digital.org/search.php">
-    <input type="search" name="sv" placeholder="Browse the collections">
+    <input type="search" name="sv" placeholder="In museum-digital:global suchen">
 </form>
 {% end %}
 
 <br/>
 
 {% lr_section_image_left(image = "/data/img/logos/mdterm-512px.png", image_alt = "Logo") %}
-#### Taking load off each other's shoulders
+#### Gegenseitig Arbeit abnehmen
 
-For making such a diverse set of objects - from museums from different countries and recorded using different languages - legible and searchable, controlled vocabularies are an essential tool. At museum-digital, we keep centralized vocabularies for different types of entries. If a museum thus has already linked an object to a place, that place is available to all other museums as well. Our controlled vocabularies can be browsed and downloaded at [md:term](https://term.museum-digital.de/).
+Um so diverse Objekte, von verschiedenenen Arten von Museen, teilweise erfasst in verschiedenen Sprachen, verständlich und durchsuchbar zu machen, sind kontrollierte Vokabulare ein essentielles Werkzeug. Bei museum-digital arbeiten wir mit vier zentral verwalteten kontrollierten Vokabularen. Wenn ein Museum einen Ort angelegt und mit einem Objekt verknüpft hat, ist der Ort so für das nächste Museum schon verfügbar und mit Übersetzungen, Koordinaten und mehr angereichert. Unsere kontrollierten Vokabulare für Akteure, Orte, Zeiten und Schlagworte sowie einige andere Thesauri lassen sich mit [md:term](https://term.museum-digital.de/) durchsuchen, benutzen und herunterladen.
 {% end %}

@@ -9,8 +9,7 @@ banner_image_alt = "Courtesy NASA/JPL-Caltech."
 html_id = "mission"
 +++
 
-
-Mission
+## Mission
 
 Museen und ihre Objekte gehören ins Netz! museum-digital hat es sich zur Aufgabe gemacht hierfür eine einfach zu nutzende Möglicheit zu schaffen. Museen, die hausintern ihre Objekte mit einer anderen Software verwalten, steht museum-digital als Werkzeug der effektiven Web-Publikation zur Verfügung. Allen anderen Museen, die etwa erst noch eine Software zur Objektverwaltung benötigen - oder mit einer bisher verwendeten Software unzufrieden sind, bietet museum-digital die entsprechenden Inventarisierungsmöglichkeiten.
 

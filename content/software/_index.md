@@ -31,13 +31,17 @@ Eine frühe Richtungsentscheidung bei der Entwicklung der Ausgabe und von musdb 
     image="/data/img/logo-musdb/musdbLogoBrown-128.png",
     image_alt="Logo") %}musdb{% end %}
 
+{% museumdigital_linktiles_tile(link="/software/term",
+    image="/data/img/logos/mdterm-128px.png",
+    image_alt="Logo") %}md:term{% end %}
+
+{% museumdigital_linktiles_tile(link="/software/nodac",
+    image="/data/img/logos/mdterm-128px.png",
+    image_alt="Logo") %}nodac{% end %}
+
 {% museumdigital_linktiles_tile(link="/software/themator",
     image="/data/img/logos/themator-128.png",
     image_alt="Logo") %}Themator{% end %}
-
-{% museumdigital_linktiles_tile(link="/software/term-nodac",
-    image="/data/img/logos/mdterm-128px.png",
-    image_alt="Logo") %}md:term & nodac{% end %}
 
 {{ museumdigital_linktiles_list_end() }}
 
