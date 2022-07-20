@@ -189,15 +189,15 @@ musdb ist für die mehrsprachige Nutzung gebaut, und ist in mehrere Sprachen üb
 
 {% museumdigital_linktiles_tile(link="https://de.handbook.museum-digital.info/musdb/",
     image="/data/img/logos-ext/mdBook.svg",
-    image_alt="") %}musdb im Handbuch{% end %}
+    image_alt="Handbuch") %}musdb im Handbuch{% end %}
 
 {% museumdigital_linktiles_tile(link="https://www.youtube.com/playlist?list=PLFbmcALPcmvLtbv38OpjEkHFteP-qhmDY",
     image="/data/img/logos-ext/YouTube_social_red_square_2017.svg",
-    image_alt="") %}Videos on YouTube{% end %}
+    image_alt="Logo von Youtube") %}Videos on YouTube{% end %}
 
 {% museumdigital_linktiles_tile(link="https://demo.museum-digital.org/musdb/swagger/",
     image="/data/img/icons/more.svg",
-    image_alt="") %}API-Dokumentation{% end %}
+    image_alt="Weiteres") %}API-Dokumentation{% end %}
 
 {{ museumdigital_linktiles_list_end() }}
 
