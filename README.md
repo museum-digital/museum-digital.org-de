@@ -10,7 +10,7 @@ Die Website wird mit [Zola](https://www.getzola.org/) generiert. Weitere Inhalte
 
 ## Lizenz und Danksagung
 
-Soweit nicht anders gekennzeichnet sind die Inhalte dieser Seite unter CC BY 4.0 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) lizensiert.
+Soweit nicht anders gekennzeichnet sind die Inhalte dieser Seite unter [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) lizensiert.
 
 Die Banner-Bilder im Ordner `/static/data/img/banners/` sind gemeinfrei, außer:
 
