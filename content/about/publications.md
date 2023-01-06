@@ -13,6 +13,7 @@ html_id = "publications"
 
 Die Flexibilität und Nicht-Kommerzialität von museum-digital bieten Raum für Innovation und Forschung. Über die Jahre sind eine Reihe von Texten über oder auf Basis von museum-digital veröffentlicht worden. Im folgenden findet sich eine Liste dieser Veröffentlichungen.
 
+- Krause, M. & Hartmann, M. (2022). "museum-digital" für Westfalen-Lippe und OWL: Museumsobjekte im Internet - Initiative, Software-Suite und Plattform. Heimat Westfalen, 6/2022, 18-22.
 - Wegerhoff, C. (2019). Museum digital: Hochauflösend statt Karteikasten [Radio-Feature]. WDR 5 Quarks - Hintergrund. https://www1.wdr.de/mediathek/audio/wdr5/quarks/hintergrund/audio-museum-digital-hochaufloesend-statt-karteikasten-100.html
 - Tunsch, T. (2019). Mangel an Museumsknoten: Vernetzungsfähigkeit einer Gedächtnisorganisation / Lack of museum nodes: Networking ability of a memory organization (pp. 111-117). [https://museums.fandom.com/wiki/Museumsknoten]
 - Fonyódi, K., & Bednárik, J. (2018). Hundreds of Megabytes of Petticoat: A Digital Cross-section of the Object Culture of the Ethnic Germans in Hungary. Uncommon Culture, 7(1/2), 126-133. [https://journals.uic.edu/ojs/index.php/UC/article/view/9242](https://journals.uic.edu/ojs/index.php/UC/article/view/9242)
