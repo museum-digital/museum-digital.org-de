@@ -251,7 +251,7 @@ Eine Besonderheit in dieser Struktur bilden die öffentlichen Zusatz-Werkzeuge, 
 
 {% icon_list_entry(image="/data/img/regional-logos/intl.png",
     image_alt="Logo",
-    link="https://poltova.ua.museum-digital.org/") %}Poltova Oblast{% end %}
+    link="https://poltava.ua.museum-digital.org/") %}Poltava Oblast{% end %}
 
 {% icon_list_entry(image="/data/img/regional-logos/intl.png",
     image_alt="Logo",
