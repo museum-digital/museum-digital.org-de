@@ -18,7 +18,7 @@ Es gibt viele Wege bei museum-digital mitzumachen - der Kreativität sind da kau
 
 Wenn Sie als Museum bei museum-digital mitmachen wollen, dann braucht es nur eine kurze Beschreibung, ein Foto und die üblichen Kontaktdaten des Museums. Danach wird das Museum in der passenden Instanz von museum-digital eingerichtet und es wird ein Nutzerkonto erstellt. Da museum-digital sehr intuitiv ist genügt meistens schon eine halbstündige Telefonunterweisung um Objekte erfolgreich zu veröffentlichen.
 
-Regionale Museumsverbände oder -beratungsstellen bieten aber auch ganztägige Veranstaltungen an, auf denen das Arbeiten mit museum-digital erläutert wird. Meist sind diese Veranstaltungen mit praktischen Übungen verbunden. Fragen Sie ihren regionalen Museumsverband oder bei einem der Betreuer einer Instanz von museum-digital.
+Regionale Museumsverbände oder -beratungsstellen bieten aber auch ganztägige Veranstaltungen an, auf denen das Arbeiten mit museum-digital erläutert wird. Meist sind diese Veranstaltungen mit praktischen Übungen verbunden. Fragen Sie ihren regionalen Museumsverband oder die Betreuer einer Instanz von museum-digital.
 
 ----
 
