@@ -68,3 +68,9 @@ Museen veröffentlichen ihre Sammlungsdaten bei museum-digital zuallererst in ei
 
 Um so diverse Objekte, von verschiedenenen Arten von Museen, teilweise erfasst in verschiedenen Sprachen, verständlich und durchsuchbar zu machen, sind kontrollierte Vokabulare ein essentielles Werkzeug. Bei museum-digital arbeiten wir mit vier zentral verwalteten kontrollierten Vokabularen. Wenn ein Museum einen Ort angelegt und mit einem Objekt verknüpft hat, ist der Ort so für das nächste Museum schon verfügbar und mit Übersetzungen, Koordinaten und mehr angereichert. Unsere kontrollierten Vokabulare für Akteure, Orte, Zeiten und Schlagworte sowie einige andere Thesauri lassen sich mit [md:term](https://term.museum-digital.de/) durchsuchen, benutzen und herunterladen.
 {% end %}
+
+----
+
+## Termine
+
+{{ calendar_upcoming_events(cal_directory="/about/calendar/", hl_all="Kommende Termine", hl_local="Kommende Termine auf Deutsch", feed_all="upcoming_events", feed_local="upcoming_events_local") }}
