@@ -17,7 +17,12 @@ const FEEDS = [
     'https://blog.museum-digital.org/de/category/technik-design/themator-de/feed/',
     'https://blog.museum-digital.org/de/category/technik-design/entwicklung-mdterm/feed/',
     'https://blog.museum-digital.org/category/technik-design/externe-tools/feed/',
+    'https://blog.museum-digital.org/de/category/community-de/feed/',
     'https://blog.museum-digital.org/de/feed/',
+
+    'https://blog.museum-digital.org/de/author/jrenslin/feed/',
+    'https://blog.museum-digital.org/de/author/malygina/feed/',
+    'https://blog.museum-digital.org/de/author/stefan-rohde-enslin/feed/',
 ];
 
 require __DIR__ . '/../themes/museum-digital-theme-zola/scripts/getRssFeed.php';

@@ -41,3 +41,9 @@ museum-digital sollte für alle Menschen verfügbar und nützlich sein. Und nich
 
 Eine weitere große, aber umso wertvollere Aufgabe kann es sein, Mitglied im Team der Normdatenredaktion zu werden. Die Normdatenredaktion verwaltet unsere kontrollierten Vokabulare für Akteure, Orte, Zeiten und Schlagworte.
 {% end %}
+
+----
+
+{{ museumdigital_rss_tile(feed_url="https://blog.museum-digital.org/de/category/community-de/feed/",
+    html_url="https://blog.museum-digital.org/de/category/community-de/",
+    title="Neuigkeiten zur museum-digital-Community im Blog") }}
