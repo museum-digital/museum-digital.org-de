@@ -21,8 +21,8 @@ Wer steckt hinter museum-digital? Natürlich: Menschen. Hier werden einige von i
     role="Koordination Ungarn",
     mail="magyarosi.adam@gmail.com",
     homepage="https://unideb.academia.edu/ÁdámMagyarosi",
-    feed_page="",
-    feed_url="",
+    feed_page="https://blog.museum-digital.org/de/author/adamm/",
+    feed_url="https://blog.museum-digital.org/de/author/adamm/feed/",
     image="/data/img/people/Adam_RightsReserved.jpg",
     image_licence="Alle Rechte vorbehalten",
     image_creator="") %}
