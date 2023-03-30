@@ -94,7 +94,7 @@ Anne-Katrin Koch ist seit Juli 2022 Mitarbeiterin beim Museumsverband Rheinland-
     feed_page="",
     feed_url="",
     image="/data/img/people/Krisztian_RightsReserved.jpg",
-    image_licence="Rights reserved",
+    image_licence="Alle Rechte vorbehalten",
     image_creator="") %}
     Krisztián Fonyódi leitet museum-digital in Ungarn seit 2014. 2020 wurde er von der Ungarischen IT-Firma DotsAmizing Ltd. eingeladen, die Software "ExhibitOnline" zu entwickeln, um Museen die Verstetigung und langfristige Zugänglichmachung ihrer vergangenen und laufenden Ausstellungen im digitalen Raum zu ermöglichen.
 {% end %}
