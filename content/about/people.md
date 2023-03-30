@@ -4,8 +4,8 @@ description = "Wer steckt hinter museum-digital? Natürlich: Menschen. Hier werd
 
 [extra]
 keywords = "museum-digital, Menschen, Koordination, Technik"
-banner_image = "/data/img/banners/usda_nrcs_montana_snow_survey65.jpg"
-banner_image_alt = "Public domain / US gov't work. USDA NRCS Montana / Snow Survey65.tif / Man working on computer, analyzing data, 1977."
+banner_image = "/data/img/banners/RetrofuturismPostersNASA/venus_cut.jpg"
+banner_image_alt = "Courtesy NASA/JPL-Caltech."
 html_id = "people"
 +++
 
