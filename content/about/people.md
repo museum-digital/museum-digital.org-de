@@ -28,7 +28,7 @@ Wer steckt hinter museum-digital? Natürlich: Menschen. Hier werden einige von i
     image_creator="") %}
 Ádám Magyarosi unterstützt ungarische Museen bei museum-digital, u.a. durch Trainings und Datenimporte.
 
-Neben museum-digital arbeitet er an seiner Dissertation zum Thema marginalisierter Gruppen im Ungarn des 19. und 20. Jahrhunderts. Er arbeitet auch dem Aufbau geographischer Informationssysteme auf Basis historischer Quellen.
+Neben museum-digital arbeitet er an seiner Dissertation zum Thema marginalisierter Gruppen im Ungarn des 19. und 20. Jahrhunderts. Er arbeitet auch am Aufbau geographischer Informationssysteme auf Basis historischer Quellen.
 {% end %}
 
 {% people_tile(name="Anne-Katrin Koch",
