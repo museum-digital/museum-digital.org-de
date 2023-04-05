@@ -2,7 +2,7 @@
 
 ## Zweck dieser Website
 
-Diese Website soll einen allgemeinen Überblick über museum-digital und seine verschiedenen Aktivitäten und Softwarelösungen bieten.
+Diese Website soll einen allgemeinen Überblick über museum-digital und seine verschiedenen Aktivitäten und Softwarelösungen bieten. Eine gerenderte Version dieses Repositories kann unter [de.about.museum-digital.org](https://de.about.museum-digital.org/) eingesehen werden.
 
 ## Setup
 
