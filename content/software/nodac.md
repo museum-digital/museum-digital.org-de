@@ -97,6 +97,10 @@ An vielen Stellen nutzt nodac die Vorteile von Linked Open Data. So können Quel
     image="/data/img/logos-ext/mdBook.svg",
     image_alt="Logo") %}Handbuch zu nodac{% end %}
 
+{% museumdigital_linktiles_tile(link="https://youtube.com/playlist?list=PLlwIIHnjvD4fRhTJR-5xLe-NG-C_rVEhA",
+    image="/data/img/logos-ext/YouTube_social_red_square_2017.svg",
+    image_alt="Logo von Youtube") %}Videos zu nodac on YouTube{% end %}
+
 {{ museumdigital_linktiles_list_end() }}
 
 ----
