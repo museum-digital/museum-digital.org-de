@@ -16,6 +16,8 @@ const FEEDS = [
     'https://blog.museum-digital.org/de/category/technik-design/musdb-technik-design/feed/',
     'https://blog.museum-digital.org/de/category/technik-design/themator-de/feed/',
     'https://blog.museum-digital.org/de/category/technik-design/entwicklung-mdterm/feed/',
+    'https://blog.museum-digital.org/de/category/technik-design/entwicklung-mdterm/feed/',
+    'https://blog.museum-digital.org/de/category/technik-design/museum-digital-qa-de/feed/',
     'https://blog.museum-digital.org/category/technik-design/externe-tools/feed/',
     'https://blog.museum-digital.org/de/category/community-de/feed/',
     'https://blog.museum-digital.org/de/feed/',
