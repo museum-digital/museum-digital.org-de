@@ -42,6 +42,6 @@ Während museum-digital:qa auch über ein Webinterface genutzt werden kann, biet
 
 ----
 
-{{ museumdigital_rss_tile(feed_url="https://blog.museum-digital.org/category/technik-design/museum-digital-qa-de/feed/",
+{{ museumdigital_rss_tile(feed_url="https://blog.museum-digital.org/de/category/technik-design/museum-digital-qa-de/feed/",
     html_url="https://blog.museum-digital.org/category/technik-design/museum-digital-qa-de/",
     title="News") }}
