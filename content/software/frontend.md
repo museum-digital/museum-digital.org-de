@@ -195,9 +195,9 @@ Viele Museen und Gedächtnisinstitutionen nutzen museum-digital - und damit prim
     image="/data/img/logos-ext/mdBook.svg",
     image_alt="") %}Handbuch zur Ausgabe{% end %}
 
-{% museumdigital_linktiles_tile(link="https://nat.museum-digital.de/index.php?t=text&st=api",
+{% museumdigital_linktiles_tile(link="https://global.museum-digital.org/swagger/",
     image="/data/img/icons/more.svg",
-    image_alt="") %}Kurze Einführung zur API{% end %}
+    image_alt="") %}API-Dokumentation{% end %}
 
 {{ museumdigital_linktiles_list_end() }}
 
