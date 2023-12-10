@@ -120,9 +120,23 @@ Anne-Katrin Koch ist seit Juli 2022 Mitarbeiterin beim Museumsverband Rheinland-
     image="/data/img/people/StefanRohdeEnslin.jpg",
     image_licence="CC BY 4.0",
     image_creator="Stefan Rohde-Enslin") %}
-Dr. Stefan Rohde-Enslin ist seit mehr annähernd 20 Jahren beim Institut für Museumsforschung der Staatlichen Museen zu Berlin für die Bereiche Digitalisierung und Langzeitarchivierung tätig.
+Dr. Stefan Rohde-Enslin ist seit mehr als 20 Jahren beim Institut für Museumsforschung der Staatlichen Museen zu Berlin für die Bereiche Digitalisierung und Langzeitarchivierung tätig.
 
 Unabhängig davon engagiert er sich seit 2009 in direkter Zusammenarbeit mit Museen und ihren Verbänden bei museum-digital. Als "Mann der ersten Stunde", der die ursprünglich Version von museum-digital programmierte, ist er heute vor allem dort tätig, wo es um kontrollierte Vokabulare geht oder Schulungen in der Nutzung des Programms durchzuführen sind.
+{% end %}
+
+{% people_tile(name="Vera Kudlinski",
+    role="Regionaladministratorin Hessen",
+    mail="vera.kudlinski@museumsverband-hessen.de",
+    homepage="",
+    feed_page="",
+    feed_url="",
+    image="/data/img/people/VeraKudlinski_RightsReserved.png",
+    image_licence="Alle Rechte vorbehalten",
+    image_creator="") %}
+Fachreferentin für digitales Sammlungsmanagement beim Museumsverband Hessen.
+
+Der Museumsverband Hessen führt Schulungen zum Inventarisieren mit museum-digital durch und beantwortet Fragen zu museum-digital für Museen in Hessen.
 {% end %}
 
 {{ museumdigital_linktiles_list_end() }}
