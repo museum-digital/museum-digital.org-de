@@ -19,7 +19,7 @@ faq = [
     ],
     [
         "Bietet die Ausgabe von museum-digital persistente URIs?",
-        "Wir erstellen beim Veröffentlichen neuer Inhalte nicht automatisch DOIs, handles, oder andere der üblichen für Methoden für das erstellen persistenter Identifier. Frei [nach Tim Berners-Lee](https://www.w3.org/Provider/Style/URI) achten wir aber darauf, unsere klassischen URLs stabil zu halten und, wo das nicht möglich ist, auf die heute genutzte URL weiterzuleiten. So sollten, abseits von z.B. wegen rechtlicher Gründe depublizierten Objekten, alle primären Inhaltsseiten (wie Objekte, Institutionen, Sammlungen, etc.) bis heute erreichbar sein."
+        "Wir erstellen beim Veröffentlichen neuer Inhalte nicht automatisch DOIs, handles, oder andere der üblichen für Methoden für das Erstellen persistenter Identifier. Frei [nach Tim Berners-Lee](https://www.w3.org/Provider/Style/URI) achten wir aber darauf, unsere klassischen URLs stabil zu halten und, wo das nicht möglich ist, auf die heute genutzte URL weiterzuleiten. So sollten, abseits von z.B. wegen rechtlicher Gründe depublizierten Objekten, alle primären Inhaltsseiten (wie Objekte, Institutionen, Sammlungen, etc.) bis heute erreichbar sein."
     ],
     [
         "Unterstützt die Ausgabe von museum-digital responsive design?",
