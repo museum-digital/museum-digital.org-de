@@ -34,6 +34,6 @@ md:term is the public equivalent of nodac. It provides for public, structured ac
 
 ----
 
-{{ museumdigital_rss_tile(feed_url="https://blog.museum-digital.org/category/development/development-md-term/feed/",
-    html_url="https://blog.museum-digital.org/category/development/development-md-term/",
+{{ museumdigital_rss_tile(feed_url="https://blog.museum-digital.org/de/category/technik-design/entwicklung-mdterm/feed/",
+    html_url="https://blog.museum-digital.org/de/category/technik-design/entwicklung-mdterm/",
     title="News") }}
