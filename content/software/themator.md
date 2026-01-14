@@ -65,6 +65,10 @@ Die Breite der möglichen Anwendungsfälle führte zur Entscheidung den Themator
     image="/data/img/logos/themator-128.png",
     image_alt="Logo") %}Themator (Ungarisch){% end %}
 
+{% museumdigital_linktiles_tile(link="https://ua-themator.museum-digital.org/",
+    image="/data/img/logos/themator-128.png",
+    image_alt="Logo") %}Themator (Ukraine){% end %}
+
 {% museumdigital_linktiles_tile(link="https://de.handbook.museum-digital.info/Themator/index.html",
     image="/data/img/logos-ext/mdBook.svg",
     image_alt="Logo") %}Handbuchseiten zum Themator{% end %}
